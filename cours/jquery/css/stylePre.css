@@ -1,0 +1,240 @@
+
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+h1, h2, h3, h4, h5, h6, legend {
+    text-transform: uppercase;
+}
+
+pre { 
+    background-color: #000;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    color: #fff;
+    border: 2px solid darkgoldenrod;
+    box-shadow: 0 0 30px black;
+}
+pre.oneLine {
+    height: 10px;
+    line-height: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+p:first-letter {
+    font-size: 1.5em;
+}
+
+p.cacherMoi {
+    word-spacing: 1px;
+    letter-spacing : 3px; 
+}
+p.classAddClass, p.classRemoveClass, p.classToggleClass {
+    color: cornflowerblue;
+}
+
+div.autreImage {
+    width: 100%;
+    background-color: #eee;
+}
+div.autreImage figure figcaption {
+    text-align: center;
+    padding: 20px;
+}
+
+div.container {
+    width: 100%;
+    height: 50px;
+    background-color: #eee;
+    position: relative;
+}
+div.container div.blue {
+    background-color: #0080ff;
+    left: 0;
+}
+div.container div.red {
+    background-color: #800000;
+    right: 0;
+}
+div.container div.blue, div.container div.red {
+    position: absolute;
+    display: inline-block;
+    width: 30%;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+}
+div.hoverTest p {
+    display: none;
+}
+div#onTest p {
+    border: 1px solid black;
+    background-color: #999;
+    color: white;
+}
+div#onObjet {
+    background-color: #999;
+}
+div#onObjet div.p1, div#onObjet div.p2, div#onObjet div.p3 {
+    background-color: #fff;
+    display: inline-block;
+    width: 32.5%;
+    border: 2px solid black;
+    height: 40px;
+    color: black;
+    line-height: 40px;
+    text-align: center;
+    font-size: 3em;
+}
+
+div.formAnimate {
+    width: 100px;
+    height: 100px;
+    background-color: #008000;
+    margin: 25px auto;
+}
+
+div#divAnimate {
+    width: 50px;
+    height: 50px;
+    background-color: #0000ff;
+    margin: 25px auto;
+}
+div.btn, div.contentExo {
+    margin-bottom: 5px;
+    background-color: #ddd;
+    padding: 15px;
+}
+div.contentExo .mainParent div.divOne, div.contentExo .mainParent div.divTwo, div.contentExo .mainParent div.divThree, div.contentExo .mainParent div.divFour,
+div.contentExo .mainParents div.divOne, div.contentExo .mainParents div.divTwo, div.contentExo .mainParents div.divThree, div.contentExo .mainParents div.divFour,
+div.contentExo .mainChildren div.divOne, div.contentExo .mainChildren div.divTwo, div.contentExo .mainChildren div.divThree, div.contentExo .mainChildren div.divFour,
+div.contentExo .mainFind div.divOne, div.contentExo .mainFind div.divTwo, div.contentExo .mainFind div.divThree, div.contentExo .mainFind div.divFour,
+div.contentExo .mainSiblingsEx1 div.divOne, div.contentExo .mainSiblingsEx1 div.divTwo, div.contentExo .mainSiblingsEx1 div.divThree, div.contentExo .mainSiblingsEx1 div.divFour,
+div.contentExo .mainSiblingsEx2 div.divOne, div.contentExo .mainSiblingsEx2 div.divTwo, div.contentExo .mainSiblingsEx2 div.divThree, div.contentExo .mainSiblingsEx2 div.divFour,
+div.contentExo .mainNext div.divOne, div.contentExo .mainNext div.divTwo, div.contentExo .mainNext div.divThree, div.contentExo .mainNext div.divFour,
+div.contentExo .mainFirst div.divOne, div.contentExo .mainFirst div.divTwo, div.contentExo .mainFirst div.divThree, div.contentExo .mainFirst div.divFour,
+div.contentExo .mainLast div.divOne, div.contentExo .mainLast div.divTwo, div.contentExo .mainLast div.divThree, div.contentExo .mainLast div.divFour,
+div.contentExo .mainEq div.divOne, div.contentExo .mainEq div.divTwo, div.contentExo .mainEq div.divThree, div.contentExo .mainEq div.divFour,
+div.contentExo .mainFilter div.divOne, div.contentExo .mainFilter div.divTwo, div.contentExo .mainFilter div.divThree, div.contentExo .mainFilter div.divFour,
+div.contentExo .mainNot div.divOne, div.contentExo .mainNot div.divTwo, div.contentExo .mainNot div.divThree, div.contentExo .mainNot div.divFour {
+    margin: 5px;
+    padding: 20px;
+    background-color: #aaa;
+}
+div.fonctionAppend, div.fonctionPrepend, div.fonctionBefore, div.fonctionAfter, div.contentArbo {
+    background-color: #ccc;
+    padding: 25px;
+}
+div.fonctionAppend p, div.fonctionPrepend p, div.fonctionBefore p, div.fonctionAfter p {
+    background-color: pink;
+    border: 2px solid black;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px 0;
+}
+div.contentArbo p {
+    background-color: dodgerblue;
+    border: 3px solid black;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+kbd {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#333), to(#000));
+    background-image: -webkit-linear-gradient(top, #333, #000);
+    background-image: -moz-linear-gradient(top, #333, #000);
+    background-image: linear-gradient(to bottom, #333, #000);
+    padding: 5px 10px;
+    font-weight: 800;
+    color: dodgerblue;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #000;
+}
+
+i.fa {
+    font-size: 2em;
+}
+span.parentheseOpenOne, pre span.parentheseCloseOne {
+    color: gold;
+}
+span.parentheseOpenTwo, pre span.parentheseCloseTwo, span.arguments {
+    color: darkorange;
+}
+span.parentheseOpenThree, pre span.parentheseCloseThree {
+    color: hotpink;
+}
+span.guillemets {
+    color: lightgreen;
+}
+span.evenement, span.attribut {
+    color: mediumpurple;
+}
+span.function, span.backslach {
+    color: steelblue;
+    font-style: italic;
+}
+span.baliseHTML {
+    color: lightblue;
+}
+span.commentaire {
+    font-style: italic;
+    color: #999;
+}
+span.accolade {
+    color: #ff0000;
+}
+span.variable {
+    color: lightpink
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+}
+table th {
+    padding: 10px;
+    border: 1px solid black;
+    background-color: #0080ff;
+}
+table td {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #eee;
+    padding: 25px;    
+}
+footer p {
+    text-align: center;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer ul li {
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+    background-color: #ddd;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 15px;
+    border: 2px solid #999;
+}
+
+footer ul li:hover {
+    border: 2px solid #444;
+}
+
+footer ul a.active li {
+    border: 2px solid #000;
+}

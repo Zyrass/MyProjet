@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Selector</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="css/stylePre.css">
+        <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <h1>Cours JQUERY</h1>
+        <h2>1 - Les selecteurs "Selectors"</h2>
+        <hr>
+
+        <h3>Sélectionner un élément avec : $</h3>
+        <fieldset>
+            <legend>Sélectionner un élément avec : $</legend>
+        <p>$ permet de désigner un élément. Il faut ouvrir obligatoirement des parenthèses et des guillemets simples ( ' ' ) ou doubles ( " " ). A l'intérieur on y ajoute nos sélecteurs utilisés en CSS.</p>
+        <h4>La Syntaxe</h4>
+            <pre class="oneLine">
+                <span class="parentheseOpenOne">$ (</span> <span class="guillemets">"</span> <span class="baliseHTML">selecteur_html</span> <span class="guillemets">"</span> <span class="parentheseCloseOne">)</span>
+            </pre>
+        <p>Exemple : { Sélection d'une balise h5. Ainsi le sélecteur sera h5 }</p>
+            <pre class="oneLine">
+                <span class="parentheseOpenOne">$(</span><span class="guillemets">"</span><span class="baliseHTML">h5</span><span class="guillemets">"</span><span class="parentheseCloseOne">)</span>
+            </pre>
+        </fieldset>
+
+        <h3>Sélectionner une class</h3>
+        <fieldset>
+            <legend>Sélectionner une class</legend>
+        <p>$ permet toujours de désigner un élément. Donc comme auparavant, on ouvre obligatoirement des parenthèses et des guillemets simples ( ' ' ) ou doubles ( " " ). En revanche, comme en CSS, pour sélectionner une classe, on doit y ajouter un POINT suivi du mot qu'on aura prédéfini soit : </p>
+            <pre class="oneLine">
+                <span class="parentheseOpenOne">$ (</span> <span class="guillemets">"</span> <span class="baliseHTML">.jeSuisUneClass</span> <span class="guillemets">"</span> <span class="parentheseCloseOne">)</span>
+            </pre>
+        <p>Exemple : { Sélection d'une classe avec comme mot "essai" }</p>
+            <pre class="oneLine">
+                <span class="parentheseOpenOne">$(</span><span class="guillemets">"</span><span class="baliseHTML">.essai</span><span class="guillemets">"</span><span class="parentheseCloseOne">)</span>
+            </pre>
+        </fieldset>
+
+        <h3>Sélectionner un identifiant</h3>
+        <fieldset>
+            <legend>Sélectionner un identifiant</legend>
+            <p>C'est exactement comme pour une classe mais avec le sélecteur # (aussi appelé sharp).</p>
+            <pre class="oneLine">
+                <span class="parentheseOpenOne">$ (</span> <span class="guillemets">"</span> <span class="baliseHTML">#jeSuisUnIdentifiant</span> <span class="guillemets">"</span> <span class="parentheseCloseOne">)</span>
+            </pre>
+            <p>Exemple : { Sélection d'un identifiant "ID" avec comme mot "essai" }</p>
+            <pre class="oneLine">
+                <span class="parentheseOpenOne">$(</span><span class="guillemets">"</span><span class="baliseHTML">#essai</span><span class="guillemets">"</span><span class="parentheseCloseOne">)</span>
+            </pre>
+        </fieldset>
+
+        <h3>Selectionner un element avec les pseudo-selecteurs</h3>
+        <fieldset>
+            <legend>Selectionner un element avec les pseudo-selecteurs</legend>
+            <p>En CSS, nous pouvons utiliser les pseudo-sélecteurs pour rechercher un élément précis.<br />
+            Comme par exemple :</p>
+            <ul>
+                <li>:nth-child(x)</li>
+                <li>:first-child</li>
+                <li>:last-child</li>
+                <li>etc...</li>
+            </ul>
+            <p>Avec jQuery c'est exactement la même chose</p>
+            <pre class="oneLine">
+                <span class="parentheseOpenOne">$ (</span> <span class="guillemets">"</span> <span class="baliseHTML">p:nth-child(odd)</span> <span class="guillemets">"</span> <span class="parentheseCloseOne">)</span>
+            </pre>
+            <p>Exemple : { Selection du 3ème paragraphe }</p>
+            <pre class="oneLine">
+                <span class="parentheseOpenOne">$(</span><span class="guillemets">"</span><span class="baliseHTML">p:nth-child(3)</span><span class="guillemets">"</span><span class="parentheseCloseOne">)</span>
+            </pre>
+            <p>Attention, ici je spécifie la couleur du sélecteur en bleu. Par contre votre éditeur de code lui affichera ça comme mes guillemets. Ce n'est donc pas une erreur. A savoir tout de même que chaque éditeur de code dispose de plusieurs thèmes téléchargeables ainsi la couleur pourra différer ici.</p>
+            <p>Exemple : { Je re-sélectionne le 3ème paragraphe avec une couleur syntaxique réelle }</p>
+            <pre class="oneLine">
+                <span class="parentheseOpenOne">$(</span><span class="guillemets">"p:nth-child(3)"</span><span class="parentheseCloseOne">)</span>
+            </pre>
+        </fieldset>
+
+        <footer>
+            <p>Conception : Alain GUILLON</p>
+            <hr>
+            <p>Page créée afin d'obtenir dans quelques temps mon diplôme à la 3wa</p>
+            <h6>Lien direct</h6>
+            <p>Home</p>
+            <ul>
+                <a href="../index.html"><li><i class="fa fa-home" aria-hidden="true"></i></li></a>
+            </ul>
+            <p>Menu</p>
+            <ul>
+                <a href="0-jquery-c-quoi.html"><li>0 - Qu'es ce que jQuery</li></a>
+                <a href="1-selectors.html" class="active"><li>1 - Les selecteurs</li></a>
+                <a href="2-event.html"><li>2 - Les évènements</li></a>
+                <a href="3-effects.html"><li>3 - Les effets</li></a>
+                <a href="4-animations.html"><li>4 - Les animations</li></a>
+                <a href="5-jquery-html.html"><li>5 - jQuery et HTML</li></a>
+                <a href="6-jquery-css.html"><li>6 - jQuery et CSS</li></a>
+                <a href="7-jquery-arborescence.html"><li>7 - L'arborescence avec Jquery</li></a>
+                <a href="8-decouverte-ajax.html"><li>8 - Découverte d'Ajax</li></a>
+            </ul>
+        </footer>
+
+        <script src="../jquery/jquery-3.1.1.min.js"></script>       
+        <script>
+
+        </script>
+    </body>
+</html>

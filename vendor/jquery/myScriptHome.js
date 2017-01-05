@@ -29,7 +29,7 @@ $(document).ready(function(){
             "filter" : "sepia(0%)",            
             "box-shadow" : "none"
         });
-        $("#pContenuSite").html("Vous venez de survoler la <strong>première</strong> image.");
+        $("#pContenuSite").html("Vous venez de survoler la <strong>1ère</strong> image.");
     });
 
     // Origine
@@ -46,7 +46,7 @@ $(document).ready(function(){
             "filter" : "sepia(0%)",            
             "box-shadow" : "none"
         });
-        $("#pContenuSite").html("Vous venez de survoler la <strong>seconde</strong> image.");
+        $("#pContenuSite").html("Vous venez de survoler la <strong>2ème</strong> image.");
     });
     // Réalisation
     $("#onRealisation").hover(function(){
@@ -62,7 +62,7 @@ $(document).ready(function(){
             "filter" : "sepia(0%)",            
             "box-shadow" : "none"
         });
-        $("#pContenuSite").html("Vous venez de survoler la <strong>troisième</strong> image.");
+        $("#pContenuSite").html("Vous venez de survoler la <strong>3ème</strong> image.");
     });
     // CV
     $("#onCv").hover(function(){
@@ -78,7 +78,7 @@ $(document).ready(function(){
             "filter" : "sepia(0%)",            
             "box-shadow" : "none"
         });
-        $("#pContenuSite").html("Vous venez de survoler la <strong>quatrième</strong> image.");
+        $("#pContenuSite").html("Vous venez de survoler la <strong>4ème</strong> image.");
     });
 
 }); // Fin du script jQuery

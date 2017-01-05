@@ -16,6 +16,7 @@
                 <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" rel="stylesheet" />
             <!-- CSS Perso -->
                 <link rel="stylesheet" type="text/css" href="vendor/css/myStyleIndex.css" />
+                <link rel="stylesheet" type="text/css" href="vendor/css/myGlobalStyle.css" />
         <!-- Google Font -->
         <link href="https://fonts.googleapis.com/css?family=Trirong" rel="stylesheet">
     </head>
@@ -163,7 +164,7 @@
                     </section>
                 </div>
                 <div class="row">
-                    <h4 class="text-xs-center text-info mt-3 mb-2">Site conçus avec les langages suivants :</h4>
+                    <h4 class="text-xs-center text-info mt-2 mb-2">Site conçus avec les langages suivants :</h4>
                     <div class="col-xs-12">
                         <div class="col-xs-4 m-0">
                             <figure>
@@ -200,33 +201,23 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="jumbotron">
+                    <div class="jumbotron mt-1 mb-1">
                         <q class="lead">A venir. Quand vous survolerez ci-dessus, une quelconque image sur les différents langages que compose le site, vous obtiendrez le pourcentage utilisé de ce code ici même. Tout ça grâce à github qui permet de savoir exactement le taux d'utilisation de chaque langage.</q>
                     </div>
                 </div>
                 <div class="row">
                     <footer class="footerTel mt-1">
-                        <div class="col-xs-6">
+                        <div class="col-xs-12">
                             <div class="card mt-1">
                                 <div class="card-header card-warning ">
                                     <h5 class="card-title text-xs-center">Mes disponibilités?</h5>
                                 </div>
                                 <div class="card-block p-1">
                                     <p class="card-text text-xs-center text-danger"><strong>Immédiate pour un poste dans une société</strong></p>
-                                    <strong>Horraires personnel :</strong><br />
-                                    <ul>                                        
-                                        <li>Lundi au Jeudi</li>
-                                        - Je peux coder à toutes heures.<br />
-                                        - Indisponible certain au soir
-                                        <li>Vendredi : 9h > 19h</li>
-                                        - Entraînement de hand à 20h.
-                                        <li>Samedi & Dimanche </li>
-                                        - C'est compliqué de prévoir ces jours. En effet, matchs de hand, les cources, les enfants.
-                                    </ul>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-6">
+                        <div class="col-xs-12">
                             <div class="card mt-1">
                                 <div class="card-header card-info ">
                                     <h5 class="card-title text-xs-center">Mes ambitions</h5>
@@ -236,8 +227,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xs-12">
-                            <p class="text-white" id="copyright">&copy;<small>Copyright 2017-2018 - Alain <span class="text-uppercase text-warning">guillon</span> - <span class="text-info">+33 6.83.13.88.45</span></span></p>
+                        <div class="col-xs-12 mt-1" id="copyright" >
+                            <p class="text-white text-xs-center">Copyright &copy; - 2017-2018</p>
+                            <hr>
+                            <p class="text-white text-xs-center" >Alain <span class="text-uppercase text-warning">guillon</span> - <span class="text-info">+33 6.83.13.88.45</span></span></p>
                         </div>
                     </footer>
                 </div>

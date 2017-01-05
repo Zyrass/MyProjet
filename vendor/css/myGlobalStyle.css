@@ -1,0 +1,85 @@
+/* ---------------------------------------------------------------
+* --------- Style GLOBAL pour toutes les pages
+* ---------------------------------------------
+* --------- Auteur  : Alain GUILLON
+* --------- Date    : 05/01/2017
+* --------- Version : 0.1 alpha
+* --------------------------------------------------------------- */
+@charset "UTF-8";
+
+* { 
+    box-sizing: border-box; 
+    margin: 1px; 
+    padding: 0; 
+}
+
+body {
+    background-image: url("../../assets/images/bg/bg5.png");
+    font-family: 'Trirong', serif;
+}
+/* -----------------------------------------------------
+ * --------- Navigation
+ * ----------------------------------------------------- */
+/* Taille min de 300px */
+@media screen and(min-width: 300px) {
+    nav, footer.footerTel {
+        box-shadow: 0 0 20px black;
+    }
+}
+
+
+
+/* ------------------------------------------------------------------------
+ * --------- Style de la balise hr
+ * ------------------------------------------------------------------------
+ */
+/* Taille max de 544px */
+@media screen and(max-width: 544px) {
+    hr {
+        width: 50%;
+        margin: 15px auto;
+    }
+}
+/* Taille entre 544px et 768px */
+@media screen and(max-width: 545px) and (max-width: 768px) {
+    hr {
+        width: 70%;
+        margin: 25px auto;
+    }
+}
+
+/* ------------------------------------------------------------------------
+ * --------- Style des paragrapges
+ * ------------------------------------------------------------------------
+ */
+
+/* Taille max de 544px */
+@media screen and(max-width: 544px) {
+    
+    /* Première lettre */
+    p:first-letter {
+        font-size: 1.5em;
+    }
+    
+    /* Espacement des lettres et des mots*/
+    p {
+        word-spacing: 1px;
+        letter-spacing: 2px;
+    }    
+}
+
+/* Taille entre 544px et 768px */
+@media screen and(max-width: 545px) and (max-width: 768px) {
+
+    /* Première lettre */
+    p:first-letter {
+        font-size: 1.8em;
+    }
+
+    /* Espacement des lettres et des mots*/
+    p {
+        word-spacing: 2px;
+        letter-spacing: 3px;
+    }    
+}
+

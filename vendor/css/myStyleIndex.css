@@ -1,37 +1,30 @@
+/* ---------------------------------------------------------------
+ * --------- Style pour la page index.php
+ * ---------------------------------------------
+ * --------- Auteur  : Alain GUILLON
+ * --------- Date    : 05/01/2017
+ * --------- Version : 0.1 alpha
+ * --------------------------------------------------------------- */
 @charset "UTF-8";
 
-* {
-    box-sizing: border-box;
-    margin: 1px;
-    padding: 0;
-}
 
-body {
-    background-image: url("../../assets/images/bg/bg5.png");
-    font-family: 'Trirong', serif;
-}
-hr {
-    width: 50%;
-    margin: 15px auto;
-}
+
+
+
 
 /*  -------------------------------------------------------------
  * Pour téléphonne portable en dessous de 544 px de large
  * -------------------------------------------------------------- */
 @media screen and (max-width: 544px) {
     
-    /* -----------------------------------------------------
-     * ------- Navigation
-     * ----------------------------------------------------- */
-    nav, footer.footerTel {
-        box-shadow: 0 0 20px black;
-    }
+
 
     /* -----------------------------------------------------
-     * ------- Header
+     * --------- Header
      * ----------------------------------------------------- */
     div.jumbotron { 
         position: relative;
+        background-image: url("../../assets/images/bg/bg7.png");
         border-radius: 0%;
     }
     .studentImg {
@@ -43,38 +36,26 @@ hr {
     }
     
     /* -----------------------------------------------------
-    * ------- Contenu
-    * ----------------------------------------------------- */
+     * --------- Contenu
+     * ----------------------------------------------------- */
 
     /* -----------------------------------------------------
-    * ------- Remerciements
-    * ----------------------------------------------------- */
+     * --------- Remerciements
+     * ----------------------------------------------------- */
     #remerciements {
         margin: 0 auto;
         height: 2050px;
         background-color: antiquewhite;
         box-shadow: 0 0 20px antiquewhite;
     }
-
+    /* -----------------------------------------------------
+     * --------- Quelle langage ?
+     * ----------------------------------------------------- */
 
     
-    #spanHiddenMdUpNavMenuRight {
-        border-left: 2px solid white;
-    }
     
-    span.hidden-md-up header div.jumbotron, span.hidden-md-up .row8 .jumbotron {
-        background-image: url("../../assets/images/bg/bg7.png");
-        border-radius: 0%;
-        width: 100%;
-        margin-bottom: 0;
-    }
-    p:first-letter {
-        font-size: 1.5em;
-    }
-    p {
-        word-spacing: 1px;
-        letter-spacing: 2px;
-    }
+    
+    
 
     #contentSite figure img, .row7 figure img {
         filter: sepia(100%);

@@ -2,28 +2,66 @@
 
 * {
     box-sizing: border-box;
+    margin: 1px;
+    padding: 0;
 }
+
 body {
-    background-image: url("../../assets/images/bg/bg5.png");   
+    background-image: url("../../assets/images/bg/bg5.png");
+    font-family: 'Trirong', serif;
+}
+hr {
+    width: 50%;
+    margin: 15px auto;
 }
 
-@media screen and (max-width: 768px) {
-    .row2, .row3, .row4, .row5, .row7 {
-    margin: 0;
-    }
-    .row1, .row6, .row8, .row9 {
-        margin: -15px;
-    }
-
+/*  -------------------------------------------------------------
+ * Pour téléphonne portable en dessous de 544 px de large
+ * -------------------------------------------------------------- */
+@media screen and (max-width: 544px) {
+    
+    /* -----------------------------------------------------
+     * ------- Navigation
+     * ----------------------------------------------------- */
     nav, footer.footerTel {
         box-shadow: 0 0 20px black;
     }
+
+    /* -----------------------------------------------------
+     * ------- Header
+     * ----------------------------------------------------- */
+    div.jumbotron { 
+        position: relative;
+        border-radius: 0%;
+    }
+    .studentImg {
+        position: absolute;
+        top: 6px;
+        left: 160px;
+        font-size: 10em;
+        opacity: .2;
+    }
+    
+    /* -----------------------------------------------------
+    * ------- Contenu
+    * ----------------------------------------------------- */
+
+    /* -----------------------------------------------------
+    * ------- Remerciements
+    * ----------------------------------------------------- */
+    #remerciements {
+        margin: 0 auto;
+        height: 2050px;
+        background-color: antiquewhite;
+        box-shadow: 0 0 20px antiquewhite;
+    }
+
+
+    
     #spanHiddenMdUpNavMenuRight {
         border-left: 2px solid white;
     }
-    header {
-        margin-top: 56px;
-    }
+    
     span.hidden-md-up header div.jumbotron, span.hidden-md-up .row8 .jumbotron {
         background-image: url("../../assets/images/bg/bg7.png");
         border-radius: 0%;
@@ -38,35 +76,33 @@ body {
         letter-spacing: 2px;
     }
 
-    #contentSite figure img {
+    #contentSite figure img, .row7 figure img {
         filter: sepia(100%);
     }
+    figure img {
+        filter: grayscale(70%)
+    }
+    .contentBlockquote {
+        background-image: url(../../assets/images/bg/bg8.png);
+        filter : sepia(100%)
+    }
     div.contentBlockquote blockquote {
-        background-color: antiquewhite;
         border-right-color: #5bc0de;
         border-right-width: 10px;
     }
     div.contentBlockquote blockquote p {
-        color: #0275d8;
+        color: #5bc0de;
     }
 
-    #remerciements {
-        margin: 0 auto;
-        height: 600px;
-        background-color: antiquewhite;
-        box-shadow: 0 0 20px antiquewhite;
-        
-    }
+   
 
-    #remerciements ol li:hover {
-        text-shadow: 0 0 10px black;
-    }
+
 
     #contentSite figure img, #remerciements ol li:hover {
         cursor: pointer;
     }
     .bgImg {
-        background-image: url("../../assets/images/bg/bg7.png");
+        background-image: url("../../assets/images/bg/bg2.png");
         padding: 5px;
     }
     .row9 {

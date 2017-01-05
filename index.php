@@ -16,6 +16,8 @@
                 <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" rel="stylesheet" />
             <!-- CSS Perso -->
                 <link rel="stylesheet" type="text/css" href="vendor/css/myStyleIndex.css" />
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Trirong" rel="stylesheet">
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -23,42 +25,43 @@
         <![endif]-->
         
         <nav class="navbar navbar-dark navbar-fixed-top bg-inverse">
-            <a href="#" class="navbar-brand">Alain <span class="text-uppercase text-warning">guillon</span> - <small class="text-info"><i class="fa fa-mobile" aria-hidden="true"></i> +33 6.83.13.88.45</small></a>
-            <button type="button" class="navbar-toggler clearfix hidden-md-up float-xs-right" data-toggle="collapse" data-target="#myNav" id="myBtnNav"></button>
+            <a href="#" class="navbar-brand">Alain <span class="text-uppercase text-warning">guillon</span> -- <i class="fa fa-mobile" aria-hidden="true"></i> <small class="text-info">+33 6.83.13.88.45</small></a>
+            <button type="button" class="navbar-toggler clearfix hidden-md-up float-xs-right" data-toggle="collapse" data-target="#myNav"></button>
         <?php 
             // Navigation
-            include("assets/includes/nav/navigationHome.php"); 
+            include("assets/includes/nav/navigationHome.php");
         ?>
         </nav>
         
-        <span class="hidden-md-up">
+        <span class="hidden-sm-up">
             <div class="container-fluid">
-                <div class="row row1">
+                <div class="row">
                     <header>
-                        <div class="jumbotron">
-                            <hgroup class="text-xs-center">
-                                <h1 id="sloganAlain">Learn While Playing</h1>
-                                <hr>
-                                <h2 class="text-muted"><small>Apprendre tout en jouant</small></h2>
-                                <hr>
-                            </hgroup>
-                        </div>
+                       <div class="jumbotron mt-2">
+                           <hgroup class="text-xs-center">
+                               <span class="studentImg"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
+                               <hr>
+                               <h1>Learn While Playing</h1>
+                               <hr>
+                               <h2><small class="text-muted">Apprendre tout en jouant</small></h2>
+                           </hgroup>
+                       </div>
                     </header>
                 </div>
-                <div class="row row2">
-                    <div class="col-xs-12 mt-1">
-                        <h3 class="text-xs-center text-info pb-3 mt-3 h2">Contenu du site</h3>
+                <div class="row">
+                    <div class="col-xs-12 ">
+                        <h3 class="text-xs-center text-info mt-0 pb-1 h2">Contenu du site</h3>
                     </div>
                 </div>
                 <section id="contentSite">
                     <div class="row row3">
-                        <div class="col-xs-6">
+                        <div class="col-xs-5 offset-xs-1">
                             <figure>
                                 <h4 class="text-xs-center text-warning pb-1">Présentation</h4>
                                 <a href="qui_suis_je.php"><img src="assets/images/1.jpg" alt="" class="img-fluid img-thumbnail" id="onPresentation"></a>
                             </figure>
                         </div>
-                        <div class="col-xs-6">
+                        <div class="col-xs-5">
                             <figure>
                                 <h4 class="text-xs-center text-warning pb-1">Les origines</h4>
                                 <a href="pourquoi.php"><img src="assets/images/2.jpg" alt="" class="img-fluid img-thumbnail" id="onOrigine"></a>
@@ -66,9 +69,9 @@
                         </div>
                     </div>
                     <div class="row row4">
-                        <div class="col-xs-8 offset-xs-2">
-                            <div class="bg-inverse mb-2 mt-1 contentBlockquote">
-                                <blockquote class="blockquote blockquote-reverse p-3">
+                        <div class="col-xs-12">
+                            <div class="mb-2 mt-1 mr-1 contentBlockquote">
+                                <blockquote class="blockquote blockquote-reverse p-2">
                                     <p id="pContenuSite" class="lead">Survolez une image pour en savoir plus.</p>
                                     <footer class="blockquote-footer">Alain GUILLON</footer>
                                 </blockquote>
@@ -76,22 +79,22 @@
                         </div>
                     </div>
                     <div class="row row5">
-                        <div class="col-xs-6">
+                        <div class="col-xs-5 offset-xs-1">
                             <figure>
                                 <h4 class="text-xs-center text-warning pb-1">Réalisations</h4>
                                 <a href="realisation.php"><img src="assets/images/3.jpg" alt="" class="img-fluid img-thumbnail" id="onRealisation"></a>
                             </figure>
                         </div>
-                        <div class="col-xs-6">
+                        <div class="col-xs-5">
                             <figure>
-                                <h4 class="text-xs-center text-warning pb-1">Mon CV</h4>
+                                <h4 class="text-xs-center text-warning pb-1">CV</h4>
                                 <a href="cv.php"><img src="assets/images/4.jpg" alt="" class="img-fluid img-thumbnail" id="onCv"></a>
                             </figure>
                         </div>
                     </div>
                 </section>
-                <div class="row6">
-                    <section class="mt-3 p-1" id="remerciements">
+                <div class="row">
+                    <section class="mt-1 p-1" id="remerciements">
                         <h3 class="text-xs-center text-info pb-1">Remerciements</h3>
                         <hr>
                         <p class="lead text-xs-center">Il est impenssable pour moi de ne peux pas remercier les personnes qui m'ont permis d'atteindre ce niveau de compétence.</p>
@@ -123,19 +126,20 @@
 
                             <dt class="col-sm-3">Christohe & Jérôme Vigoureux</dt>
                             <dd class="col-sm-9">Deux personnes qui m'apportent tellement de chose positive qu'il sont indéniablement obligé d'être sur cette liste.</dd>
+                            
+                            <dt class="col-sm-3">Josselin Caron & Nicolas Clabau</dt>
+                            <dd class="col-sm-9">Mes futurs témoins mais également deux grands barjot que j'adore. Quand on se capte c'est tout le temps des barres de rire. Merci d'être là.</dd>
 
                             <dt class="col-sm-3">La 3W Academy</dt>
                             <dd class="col-sm-9">Fabuleux centre de formation sur les langages informatique. Je la recommande chaleureusement.</dd>
 
                             <dt class="col-sm-3">Mathieu</dt>
-                            <dd class="col-sm-9">Formateur sur l'intégration à la 3WA.</dd>
-                            <dd class="col-sm-9 text-truncate">Débutant dans la formation et franchement, il a du talent !!</dd>
+                            <dd class="col-sm-9">Formateur sur l'intégration à la 3WA. Débutant dans la formation et franchement, il a du talent !!</dd>
 
                             <dt class="col-sm-3">Julien</dt>
-                            <dd class="col-sm-9">Formateur sur le développement à la 3WA.</dd>
-                            <dd class="col-sm-9 text-truncate">Une perle qui veut si possible nous apprendre et faire découvrir un maximum de chose.</dd>
+                            <dd class="col-sm-9">Formateur sur le développement à la 3WA. Une perle qui veut si possible nous apprendre et faire découvrir un maximum de chose.</dd>
 
-                            <dt class="col-sm-3">Les élèves de la promotion L9 à la 3WA</dt>
+                            <dt class="col-sm-3">La promotion L9 à la 3WA</dt>
                             <dd class="col-sm-9">Ils m'ont soutenu malgré mes problèmes avec ma fille, ils m'aident encore aujourd'hui</dd>
 
                             <dt class="col-sm-3">Clarisse Halimari</dt>
@@ -153,50 +157,54 @@
                             <dt class="col-sm-3">OpenClassRooms</dt>
                             <dd class="col-sm-9">Je remercie les nombreux formateurs. Un seule bémole l'augmentation du prix pour suivre un parcours.</dd>
 
-                            <dt class="col-sm-3">!?</dt>
+                            <dt class="col-sm-3">j'en oublie...</dt>
                             <dd class="col-sm-9">Et bien d'autres encore...</dd>
                         </dl>
                     </section>
                 </div>
-                <div class="row row7">
+                <div class="row">
                     <h4 class="text-xs-center text-info mt-3 mb-2">Site conçus avec les langages suivants :</h4>
-                    <div class="col-xs-4 mb-2">
-                        <figure>
-                            <img src="assets/images/logo/html.png" alt="" class="img-fluid rounded bgImg">
-                        </figure>
+                    <div class="col-xs-12">
+                        <div class="col-xs-4 m-0">
+                            <figure>
+                                <img src="assets/images/logo/html.png" alt="" class="img-fluid rounded bgImg">
+                            </figure>
+                        </div>
+                        <div class="col-xs-4 m-0">
+                            <figure>
+                                <img src="assets/images/logo/css.png" alt="" class="img-fluid rounded bgImg">
+                            </figure>
+                        </div>
+                        <div class="col-xs-4 m-0">
+                            <figure>
+                                <img src="assets/images/logo/javascript.png" alt="" class="img-fluid rounded bgImg">
+                            </figure>
+                        </div>    
                     </div>
-                    <div class="col-xs-4 mb-2">
-                        <figure>
-                            <img src="assets/images/logo/css.png" alt="" class="img-fluid rounded bgImg">
-                        </figure>
-                    </div>
-                    <div class="col-xs-4 mb-2">
-                        <figure>
-                            <img src="assets/images/logo/javascript.png" alt="" class="img-fluid rounded bgImg">
-                        </figure>
-                    </div>
-                    <div class="col-xs-4 mb-2">
-                        <figure>
-                            <img src="assets/images/logo/jquery.png" alt="" class="img-fluid rounded bgImg">
-                        </figure>
-                    </div>
-                    <div class="col-xs-4 mb-2">
-                        <figure>
-                            <img src="assets/images/logo/bootstrap.png" alt="" class="img-fluid rounded bgImg">
-                        </figure>
-                    </div>
-                    <div class="col-xs-4 mb-2">
-                        <figure>
-                            <img src="assets/images/logo/php&mysql.png" alt="" class="img-fluid rounded bgImg">
-                        </figure>
+                    <div class="col-xs-12">
+                        <div class="col-xs-4 m-0">
+                            <figure>
+                                <img src="assets/images/logo/jquery.png" alt="" class="img-fluid rounded bgImg">
+                            </figure>
+                        </div>
+                        <div class="col-xs-4 m-0">
+                            <figure>
+                                <img src="assets/images/logo/bootstrap.png" alt="" class="img-fluid rounded bgImg">
+                            </figure>
+                        </div>
+                        <div class="col-xs-4 m-0">
+                            <figure>
+                                <img src="assets/images/logo/php&mysql.png" alt="" class="img-fluid rounded bgImg">
+                            </figure>
+                        </div>
                     </div>
                 </div>
-                <div class="row row8">
+                <div class="row">
                     <div class="jumbotron">
-                        <q class="lead">Bientôt quand vous survolerez ci-dessus, les différents langages que compose le site, vous obtiendrez le pourcentage utilisé de ce code ici même. Tout ça grâce à github qui permet de savoir exactement le taux d'utilisation de chaque langage.</q>
+                        <q class="lead">A venir. Quand vous survolerez ci-dessus, une quelconque image sur les différents langages que compose le site, vous obtiendrez le pourcentage utilisé de ce code ici même. Tout ça grâce à github qui permet de savoir exactement le taux d'utilisation de chaque langage.</q>
                     </div>
                 </div>
-                <div class="row row9">
+                <div class="row">
                     <footer class="footerTel mt-1">
                         <div class="col-xs-6">
                             <div class="card mt-1">
@@ -235,7 +243,6 @@
                 </div>
             </div>
         </span>
-
 
         <span class="hidden-sm-down">
             <div class="container-fluid">

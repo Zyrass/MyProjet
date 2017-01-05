@@ -19,14 +19,14 @@ $(document).ready(function(){
     $("#onPresentation").hover(function(){
         $("#onPresentation").css({
             "transition" : "all .5s linear .5s",
-            "filter" : "sepia(0%)",
+            "filter" : "sepia(100%)",
             "box-shadow" : "0 0 10px white"
         });
-        $("#pContenuSite").html("Venez découvrir <strong>votre futur développeur</strong> ici !");
+        $("#pContenuSite").html("<strong>Votre futur développeur ici !</strong>");
     }, function(){
         $("#onPresentation").css({
             "transition" : "all .5s linear .5s",
-            "filter" : "sepia(100%)",            
+            "filter" : "sepia(0%)",            
             "box-shadow" : "none"
         });
         $("#pContenuSite").html("Vous venez de survoler la <strong>première</strong> image.");
@@ -36,14 +36,14 @@ $(document).ready(function(){
     $("#onOrigine").hover(function(){
         $("#onOrigine").css({
             "transition" : "all .5s linear .5s",
-            "filter" : "sepia(0%)",
+            "filter" : "sepia(100%)",
             "box-shadow" : "0 0 10px white"
         });
-        $("#pContenuSite").html("Pourquoi concevoir ce site web ? <strong>Les raisons ici</strong>");
+        $("#pContenuSite").html("Pourquoi ? <strong>Les raisons ici</strong>");
     }, function(){
         $("#onOrigine").css({
             "transition" : "all .5s linear .5s",
-            "filter" : "sepia(100%)",            
+            "filter" : "sepia(0%)",            
             "box-shadow" : "none"
         });
         $("#pContenuSite").html("Vous venez de survoler la <strong>seconde</strong> image.");
@@ -52,14 +52,14 @@ $(document).ready(function(){
     $("#onRealisation").hover(function(){
         $("#onRealisation").css({
             "transition" : "all .5s linear .5s",
-            "filter" : "sepia(0%)",
+            "filter" : "sepia(100%)",
             "box-shadow" : "0 0 10px white"
         });
         $("#pContenuSite").html("Qu'ai-je fait juqu'à <strong>aujourd'hui ?</strong>");
     }, function(){
         $("#onRealisation").css({
             "transition" : "all .5s linear .5s",
-            "filter" : "sepia(100%)",            
+            "filter" : "sepia(0%)",            
             "box-shadow" : "none"
         });
         $("#pContenuSite").html("Vous venez de survoler la <strong>troisième</strong> image.");
@@ -68,14 +68,14 @@ $(document).ready(function(){
     $("#onCv").hover(function(){
         $("#onCv").css({
             "transition" : "all .5s linear .5s",
-            "filter" : "sepia(0%)",
+            "filter" : "sepia(100%)",
             "box-shadow" : "0 0 10px white"
         });
-        $("#pContenuSite").html("<strong>Consulter</strong> ou <strong>télécharger</strong> mon <strong>CV</strong> ici.");
+        $("#pContenuSite").html("<strong>Voir</strong> ou <strong>télécharger</strong> mon <strong>CV</strong> ici.");
     }, function(){
         $("#onCv").css({
             "transition" : "all .5s linear .5s",
-            "filter" : "sepia(100%)",            
+            "filter" : "sepia(0%)",            
             "box-shadow" : "none"
         });
         $("#pContenuSite").html("Vous venez de survoler la <strong>quatrième</strong> image.");

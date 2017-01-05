@@ -26,7 +26,7 @@
         <![endif]-->
         
         <nav class="navbar navbar-dark navbar-fixed-top bg-inverse">
-            <a href="#" class="navbar-brand">Alain <span class="text-uppercase text-warning">guillon</span> -- <i class="fa fa-mobile" aria-hidden="true"></i> <small class="text-info">+33 6.83.13.88.45</small></a>
+            <a href="#" class="navbar-brand">Alain <span class="text-uppercase text-warning ">guillon</span> - <i class="fa fa-mobile" aria-hidden="true"></i> <small class="text-info">+33 6.83.13.88.45</small></a>
             <button type="button" class="navbar-toggler clearfix hidden-md-up float-xs-right" data-toggle="collapse" data-target="#myNav"></button>
         <?php 
             // Navigation
@@ -38,7 +38,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <header>
-                       <div class="jumbotron mt-2">
+                       <div class="jumbotron p-3">
                            <hgroup class="text-xs-center">
                                <span class="studentImg"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
                                <hr>
@@ -51,7 +51,7 @@
                 </div>
                 <div class="row">
                     <div class="col-xs-12 ">
-                        <h3 class="text-xs-center text-info mt-0 pb-1 h2">Contenu du site</h3>
+                        <h3 class="text-xs-center text-info pb-2 h2">Contenu du site</h3>
                     </div>
                 </div>
                 <section id="contentSite">
@@ -70,10 +70,10 @@
                         </div>
                     </div>
                     <div class="row row4">
-                        <div class="col-xs-12">
+                        <div class="col-xs-8 offset-xs-2">
                             <div class="mb-2 mt-1 mr-1 contentBlockquote">
                                 <blockquote class="blockquote blockquote-reverse p-2">
-                                    <p id="pContenuSite" class="lead">Survolez une image pour en savoir plus.</p>
+                                    <p id="pContenuSite" class="lead"><small>Êtes-vous curieux ? Survolez-les !</p>
                                     <footer class="blockquote-footer">Alain GUILLON</footer>
                                 </blockquote>
                             </div> 
@@ -95,116 +95,157 @@
                     </div>
                 </section>
                 <div class="row">
-                    <section class="mt-1 p-1" id="remerciements">
-                        <h3 class="text-xs-center text-info pb-1">Remerciements</h3>
+                    <section class="mb-0 p-2 pt-3 jumbotron" id="remerciements">
+                        <h3 class="text-xs-center text-danger pb-1">Remerciements</h3>
                         <hr>
-                        <p class="lead text-xs-center">Il est impenssable pour moi de ne peux pas remercier les personnes qui m'ont permis d'atteindre ce niveau de compétence.</p>
+                        <p class="lead text-xs-center">Sur une page sportif,<br /> les sponsors sont généralement mis en avant.</p>
                         <hr>
-                        <dl class="dl-horizontal mb-3">
-                            <dt class="col-sm-3">Mme DEBABB du Fastt</dt>
-                            <dd class="col-sm-9">Sans elle, je n'aurais jamais pu intégrer la 3W Academy, elle s'est démenée pour moi alors que le timming était plus que serré.</dd>
-                            
-                            <dt class="col-sm-3">Marjorie Caron</dt>
-                            <dd class="col-sm-9">Ma conjointe, qui m'a offert pas mal de formations et surtout, elle supporte mes longues journée/nuits à coder sans broncher. Merci ma chérie</dd>
-
-                            <dt class="col-sm-3">Éléanore</dt>
-                            <dd class="col-sm-9">Qui grâce à dieu, elle est toujours là. Il s'agit de ma dernière fille qui se bat contre une maladie très grave depuis ça naissance.</dd>
-
-                            <dt class="col-sm-3">Sheryle & Océane</dt>
-                            <dd class="col-sm-9">Mes deux premières filles, m'on permit de tenir le coup dans les moments vraiment dificile. Je les adores</dd>
-
-                            <dt class="col-sm-3" >Ma maman</dt>
-                            <dd class="col-sm-9">Malgré qu'elle ne comprends rien sur tout ces langages, maman épaule ma conjointe au quotidien sur vraiment beaoup de point. Merci maman.</dd>
-
-                            <dt class="col-sm-3">Véronique Guillon</dt>
-                            <dd class="col-sm-9">Ma marraine avec qui j'ai de longue discution au téléphone.</dd>
-
-                            <dt class="col-sm-3">Arnaud Favier</dt>
-                            <dd class="col-sm-9">Mon meilleur ami et patron de la société 3BioElec qui se situe dans la région Lyonnaise. Merci pour tout ce que tu as pu faire pour moi.</dd>
-
-                            <dt class="col-sm-3">Anthony Vigoureux</dt>
-                            <dd class="col-sm-9">Une personne que je considère comme mon frère. Merci pour ta présence au quotidien.</dd>
-
-                            <dt class="col-sm-3">Christohe & Jérôme Vigoureux</dt>
-                            <dd class="col-sm-9">Deux personnes qui m'apportent tellement de chose positive qu'il sont indéniablement obligé d'être sur cette liste.</dd>
-                            
-                            <dt class="col-sm-3">Josselin Caron & Nicolas Clabau</dt>
-                            <dd class="col-sm-9">Mes futurs témoins mais également deux grands barjot que j'adore. Quand on se capte c'est tout le temps des barres de rire. Merci d'être là.</dd>
-
-                            <dt class="col-sm-3">La 3W Academy</dt>
-                            <dd class="col-sm-9">Fabuleux centre de formation sur les langages informatique. Je la recommande chaleureusement.</dd>
-
-                            <dt class="col-sm-3">Mathieu</dt>
-                            <dd class="col-sm-9">Formateur sur l'intégration à la 3WA. Débutant dans la formation et franchement, il a du talent !!</dd>
-
-                            <dt class="col-sm-3">Julien</dt>
-                            <dd class="col-sm-9">Formateur sur le développement à la 3WA. Une perle qui veut si possible nous apprendre et faire découvrir un maximum de chose.</dd>
-
-                            <dt class="col-sm-3">La promotion L9 à la 3WA</dt>
-                            <dd class="col-sm-9">Ils m'ont soutenu malgré mes problèmes avec ma fille, ils m'aident encore aujourd'hui</dd>
-
-                            <dt class="col-sm-3">Clarisse Halimari</dt>
-                            <dd class="col-sm-9">Ancienne élève de la promotion L9, elle corrige mes nombreuses fautes d'orthographe.</dd>
-
-                            <dt class="col-sm-3">John Codeur</dt>
-                            <dd class="col-sm-9">Formateur sur Udemy.com, j'apprend énormément via ces vidéos</dd>
-
-                            <dt class="col-sm-3">Steven Sill</dt>
-                            <dd class="col-sm-9">Formateur sur tuto.com. Également auprès de lui j'en apprends énormément.</dd>
-
-                            <dt class="col-sm-3">Vidéo2Brain</dt>
-                            <dd class="col-sm-9">Étant membre deluxe, je tiens à remerciers les nombreux formateur pour leurs formations de qualité.</dd>
-
-                            <dt class="col-sm-3">OpenClassRooms</dt>
-                            <dd class="col-sm-9">Je remercie les nombreux formateurs. Un seule bémole l'augmentation du prix pour suivre un parcours.</dd>
-
-                            <dt class="col-sm-3">j'en oublie...</dt>
-                            <dd class="col-sm-9">Et bien d'autres encore...</dd>
-                        </dl>
+                        <p class="lead text-xs-center">Pour ma part, il m'ai impenssable de ne peux pas remercier les personnes qui m'ont permis d'atteindre ce niveau de compétence.</p>
+                        <hr>
+                        <div class="col-xs-4 offset-xs-2 mb-2">
+                            <!-- Button btnSoutien modal -->
+                            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#btnSoutien">Je ne serais tout simplement rien sans eux !</button>
+                        </div>
                     </section>
                 </div>
+                <!-- Modal Remerciement -->
+                <div class="modal" id="btnSoutien" tabindex="-1" role="dialog" aria-labelledby="ModalRemerciement" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header text-white bg-info">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">×</span>
+                                </button>
+                                <h4 class="modal-title text-xs-center" id="ModalRemerciement">- Mes remerciements -</h4>
+                            </div>
+                            <div class="modal-body modalContent">
+                                <dl class="dl-horizontal mb-3">
+                                    <dt class="col-sm-3 thanks1">Mme DEBABB du Fastt</dt>
+                                    <dd class="col-sm-9 thanks1">Sans elle, je n'aurais jamais pu intégrer la 3W Academy, elle s'est démenée pour moi alors que le timming était plus que serré.</dd>
+
+                                    <dt class="col-sm-3 thanks2">Marjorie Caron</dt>
+                                    <dd class="col-sm-9 thanks2">Ma conjointe, qui m'a offert pas mal de formations et surtout, elle supporte mes longues journée/nuits à coder sans broncher. Merci ma chérie</dd>
+
+                                    <dt class="col-sm-3 thanks3">Éléanore</dt>
+                                    <dd class="col-sm-9 thanks3">Qui grâce à dieu, elle est toujours là. Il s'agit de ma dernière fille qui se bat contre une maladie très grave depuis ça naissance.</dd>
+
+                                    <dt class="col-sm-3 thanks4">Sheryle & Océane</dt>
+                                    <dd class="col-sm-9 thanks4">Mes deux premières filles, m'on permit de tenir le coup dans les moments vraiment difficile. Je les adores</dd>
+
+                                    <dt class="col-sm-3 thanks5" >Ma maman</dt>
+                                    <dd class="col-sm-9 thanks5">Malgré qu'elle ne comprends rien sur tout ces langages, maman épaule ma conjointe au quotidien sur vraiment beaoup de point. Merci maman.</dd>
+
+                                    <dt class="col-sm-3 thanks6">Véronique Guillon</dt>
+                                    <dd class="col-sm-9 thanks6">Ma marraine avec qui j'ai de longue discution au téléphone.</dd>
+
+                                    <dt class="col-sm-3 thanks7">Arnaud Favier</dt>
+                                    <dd class="col-sm-9 thanks7">Mon meilleur ami et patron de la société 3BioElec qui se situe dans la région Lyonnaise. Merci pour tout ce que tu as pu faire pour moi.</dd>
+
+                                    <dt class="col-sm-3 thanks8">Anthony Vigoureux</dt>
+                                    <dd class="col-sm-9 thanks8">Une personne que je considère comme mon frère. Merci pour ta présence au quotidien.</dd>
+
+                                    <dt class="col-sm-3 thanks9">Christohe & Jérôme Vigoureux</dt>
+                                    <dd class="col-sm-9 thanks9">Deux personnes qui m'apportent tellement de chose positive qu'il sont indéniablement obligé d'être sur cette liste.</dd>
+
+                                    <dt class="col-sm-3 thanks10">Josselin Caron & Nicolas Clabau</dt>
+                                    <dd class="col-sm-9 thanks11">Mes futurs témoins mais également deux grands barjot que j'adore. Quand on se capte c'est tout le temps des barres de rire. Merci d'être là.</dd>
+
+                                    <dt class="col-sm-3 thanks12">La 3W Academy</dt>
+                                    <dd class="col-sm-9 thanks12">Fabuleux centre de formation sur les langages informatique. Je la recommande chaleureusement.</dd>
+
+                                    <dt class="col-sm-3 thanks13">Mathieu</dt>
+                                    <dd class="col-sm-9 thanks13">Formateur sur l'intégration à la 3WA. Débutant dans la formation et franchement, il a du talent !!</dd>
+
+                                    <dt class="col-sm-3 thanks14">Julien</dt>
+                                    <dd class="col-sm-9 thanks14">Formateur sur le développement à la 3WA. Une perle qui veut si possible nous apprendre et faire découvrir un maximum de chose.</dd>
+
+                                    <dt class="col-sm-3 thanks15">La promotion L9 à la 3WA</dt>
+                                    <dd class="col-sm-9 thanks15">Ils m'ont soutenu malgré mes problèmes avec ma fille, ils m'aident encore aujourd'hui</dd>
+
+                                    <dt class="col-sm-3 thanks16">Clarisse Halimari</dt>
+                                    <dd class="col-sm-9 thanks16">Ancienne élève de la promotion L9, elle corrige mes nombreuses fautes d'orthographe.</dd>
+
+                                    <dt class="col-sm-3 thanks17">John Codeur</dt>
+                                    <dd class="col-sm-9 thanks17">Formateur sur Udemy.com, j'apprend énormément via ces vidéos</dd>
+
+                                    <dt class="col-sm-3 thanks18">Steven Sill</dt>
+                                    <dd class="col-sm-9 thanks18">Formateur sur tuto.com. Également auprès de lui j'en apprends énormément.</dd>
+
+                                    <dt class="col-sm-3 thanks19">Vidéo2Brain</dt>
+                                    <dd class="col-sm-9 thanks19">Étant membre deluxe, je tiens à remerciers les nombreux formateur pour leurs formations de qualité.</dd>
+
+                                    <dt class="col-sm-3">OpenClassRooms</dt>
+                                    <dd class="col-sm-9">Je remercie les nombreux formateurs. Un seule bémole l'augmentation du prix pour suivre un parcours.</dd>
+
+                                    <dt class="col-sm-3">j'en oublie...</dt>
+                                    <dd class="col-sm-9">Et bien d'autres encore...</dd>
+                                </dl>
+                            </div>
+                            <div class="modal-footer bg-info">
+                               <div class="col-xs-12">
+                                   <div class="col-xs-4 offset-xs-4">
+                                       <button type="button" class="btn btn-warning btn-lg" data-dismiss="modal">Fermer cette fenêtre</button>       
+                                   </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- Fin modal Remerciement -->
                 <div class="row">
-                    <h4 class="text-xs-center text-info mt-2 mb-2">Site conçus avec les langages suivants :</h4>
+                    <h4 class="text-xs-center text-info mt-2 mb-2 p-2">Site conçus avec les langages suivants :</h4>
                     <div class="col-xs-12">
-                        <div class="col-xs-4 m-0">
+                        <div class="col-xs-3 m-0">
                             <figure>
-                                <img src="assets/images/logo/html.png" alt="" class="img-fluid rounded bgImg">
+                                <img src="assets/images/logo/html.png" alt="" class="img-fluid img-thumbnail bgImg bgImg1">
                             </figure>
                         </div>
-                        <div class="col-xs-4 m-0">
+                        <div class="col-xs-3 m-0">
                             <figure>
-                                <img src="assets/images/logo/css.png" alt="" class="img-fluid rounded bgImg">
+                                <img src="assets/images/logo/css.png" alt="" class="img-fluid img-thumbnail bgImg bgImg2">
                             </figure>
                         </div>
-                        <div class="col-xs-4 m-0">
+                        <div class="col-xs-3 m-0">
                             <figure>
-                                <img src="assets/images/logo/javascript.png" alt="" class="img-fluid rounded bgImg">
+                                <img src="assets/images/logo/javascript.png" alt="" class="img-fluid img-thumbnail bgImg bgImg3">
                             </figure>
-                        </div>    
+                        </div>
+                        <div class="col-xs-3 m-0">
+                            <figure>
+                                <img src="assets/images/logo/jquery.png" alt="" class="img-fluid img-thumbnail bgImg bgImg4">
+                            </figure>
+                        </div>  
+                    </div>
+                </div>
+                    <div class="row">
+                        <div class="jumbotron mt-1 mb-1 jumbotron.askLogo">
+                            <p class="lead p-3 text-xs-center" id="askLogo"><span class='text-danger'>Si vous survolez n'importe quel logo, je vous expliquerai les raisons qui m'ont poussé à utiliser ces langages. Quand se sera disponible, j'afficherai le taux d'uilisation de ce dernier grâce à la plateforme GitHub.</span></p>
+                        </div>
                     </div>
                     <div class="col-xs-12">
-                        <div class="col-xs-4 m-0">
+                        
+                        <div class="col-xs-3 m-0">
                             <figure>
-                                <img src="assets/images/logo/jquery.png" alt="" class="img-fluid rounded bgImg">
+                                <img src="assets/images/logo/bootstrap.png" alt="" class="img-fluid img-thumbnail bgImg bgImg5">
                             </figure>
                         </div>
-                        <div class="col-xs-4 m-0">
+                        <div class="col-xs-3 m-0">
                             <figure>
-                                <img src="assets/images/logo/bootstrap.png" alt="" class="img-fluid rounded bgImg">
+                                <img src="assets/images/logo/php&mysql.png" alt="" class="img-fluid img-thumbnail bgImg bgImg6">
                             </figure>
                         </div>
-                        <div class="col-xs-4 m-0">
+                        <div class="col-xs-3 m-0">
                             <figure>
-                                <img src="assets/images/logo/php&mysql.png" alt="" class="img-fluid rounded bgImg">
+                                <img src="assets/images/logo/emmet.png" alt="" class="img-fluid img-thumbnail bgImg bgImg7">
+                            </figure>
+                        </div>
+                        <div class="col-xs-3 m-0">
+                            <figure>
+                                <img src="assets/images/logo/sass.png" alt="" class="img-fluid img-thumbnail bgImg bgImg8">
                             </figure>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="jumbotron mt-1 mb-1">
-                        <q class="lead">A venir. Quand vous survolerez ci-dessus, une quelconque image sur les différents langages que compose le site, vous obtiendrez le pourcentage utilisé de ce code ici même. Tout ça grâce à github qui permet de savoir exactement le taux d'utilisation de chaque langage.</q>
-                    </div>
-                </div>
+
                 <div class="row">
                     <footer class="footerTel mt-1">
                         <div class="col-xs-12">

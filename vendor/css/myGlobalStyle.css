@@ -3,83 +3,122 @@
 * ---------------------------------------------
 * --------- Auteur  : Alain GUILLON
 * --------- Date    : 05/01/2017
-* --------- Version : 0.1 alpha
+* --------- Version : 0.0.1 alpha
 * --------------------------------------------------------------- */
-@charset "UTF-8";
+    @charset "UTF-8";
 
-* { 
-    box-sizing: border-box; 
-    margin: 1px; 
-    padding: 0; 
-}
+    * { 
+        box-sizing: border-box; 
+        margin: 1px; 
+        padding: 0; 
+    }
+/* --------------------------------------------------- A savoir ?
+ * La taille par défaut du texte étant de 16px, 
+ * ce qui est un peu grand, on diminue donc cette taille 
+ * dès le départ à 10px : (16 x62.5/100 = 10).
+ * --------------------------------------------------- */
+    html {font-size:62.5%}
 
-body {
-    background-image: url("../../assets/images/bg/bg5.png");
-    font-family: 'Trirong', serif;
-}
+    body {
+        background-image: url("../../assets/images/bg/bg5.png");
+        font-family: 'Trirong', serif;
+    }
+    figure img {
+        filter : sepia(100%);
+    }
+    .bgImg {
+        background-image: url("../../assets/images/bg/bg7.png");
+        padding: 15px;    
+        opacity: .1;
+    }
 /* -----------------------------------------------------
  * --------- Navigation
  * ----------------------------------------------------- */
-/* Taille min de 300px */
-@media screen and(min-width: 300px) {
-    nav, footer.footerTel {
-        box-shadow: 0 0 20px black;
+    /* Taille min de 300px */
+    @media screen and(min-width: 300px) {
+        nav, footer.footerTel {
+            box-shadow: 0 0 20px black;
+        }
     }
-}
+/* ------------------------------------------------------------------------
+ * --------- header
+ * ------------------------------------------------------------------------ */
+    div.jumbotron, #remerciements { 
+        position: relative;
+        margin: 21px auto;
+        background-image: url("../../assets/images/bg/bg7.png");
+        border-radius: 0%;
+    }
 
-
-
+    .studentImg {
+        position: absolute;
+        top: -5px;
+        left: 210px;
+        font-size: 12rem;
+        opacity: .2;
+    }
 /* ------------------------------------------------------------------------
  * --------- Style de la balise hr
- * ------------------------------------------------------------------------
- */
-/* Taille max de 544px */
-@media screen and(max-width: 544px) {
-    hr {
-        width: 50%;
-        margin: 15px auto;
-    }
-}
-/* Taille entre 544px et 768px */
-@media screen and(max-width: 545px) and (max-width: 768px) {
+ * ------------------------------------------------------------------------ */
     hr {
         width: 70%;
-        margin: 25px auto;
+        margin: 15px auto;
     }
-}
+
+/* -----------------------------------------------------
+ * --------- Contenu
+ * ----------------------------------------------------- */
+    .contentBlockquote {
+        background-image: url(../../assets/images/bg/bg.png);
+        background-color: black;
+        color: azure;
+    }
+/* -----------------------------------------------------
+ * --------- Remerciements
+ * ----------------------------------------------------- */
+    #remerciements {
+        height: 330px;
+    }
+    dl dt, dl dd {
+        display: none;
+    }
 
 /* ------------------------------------------------------------------------
  * --------- Style des paragrapges
- * ------------------------------------------------------------------------
- */
-
-/* Taille max de 544px */
-@media screen and(max-width: 544px) {
-    
+ * ------------------------------------------------------------------------ */
     /* Première lettre */
     p:first-letter {
-        font-size: 1.5em;
+        font-size: 1.6em;
     }
-    
-    /* Espacement des lettres et des mots*/
-    p {
-        word-spacing: 1px;
-        letter-spacing: 2px;
-    }    
-}
-
-/* Taille entre 544px et 768px */
-@media screen and(max-width: 545px) and (max-width: 768px) {
-
-    /* Première lettre */
-    p:first-letter {
-        font-size: 1.8em;
-    }
-
     /* Espacement des lettres et des mots*/
     p {
         word-spacing: 2px;
         letter-spacing: 3px;
-    }    
-}
+        
+    }
+/* ------------------------------------------------------------------------
+ * --------- Style des paragrapges
+ * ------------------------------------------------------------------------ */
+    /* Première lettre */
+    jumbotron.askLogo {
+        box-shadow: 0 0 10px antiquewhite;
+    }
 
+
+
+/* ------------------------------------------------------------------------
+ * --------- Footer
+ * ------------------------------------------------------------------------ */
+    .footerTel {
+            background-color: #373a3c;    
+    }
+    
+
+     #copyright {
+        background-color: black;
+        padding: 5px;
+        height: 40px;
+        line-height: 20px;
+        text-align: center;
+        box-shadow: 0 0 20px black;
+    }

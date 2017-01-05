@@ -20,26 +20,6 @@
 
 
     /* -----------------------------------------------------
-     * --------- Header
-     * ----------------------------------------------------- */
-    div.jumbotron { 
-        position: relative;
-        background-image: url("../../assets/images/bg/bg7.png");
-        border-radius: 0%;
-    }
-    .studentImg {
-        position: absolute;
-        top: 6px;
-        left: 160px;
-        font-size: 10em;
-        opacity: .2;
-    }
-    
-    /* -----------------------------------------------------
-     * --------- Contenu
-     * ----------------------------------------------------- */
-
-    /* -----------------------------------------------------
      * --------- Remerciements
      * ----------------------------------------------------- */
     #remerciements {
@@ -57,16 +37,11 @@
     
     
 
-    #contentSite figure img, .row7 figure img {
-        filter: sepia(100%);
-    }
+    
     figure img {
         filter: grayscale(70%)
     }
-    .contentBlockquote {
-        background-image: url(../../assets/images/bg/bg8.png);
-        filter : sepia(100%)
-    }
+    
     div.contentBlockquote blockquote {
         border-right-color: #5bc0de;
         border-right-width: 10px;
@@ -82,24 +57,12 @@
     #contentSite figure img, #remerciements ol li:hover {
         cursor: pointer;
     }
-    .bgImg {
-        background-image: url("../../assets/images/bg/bg2.png");
-        padding: 5px;
-    }
-    .row9 {
-        background-color: #373a3c;
-    }
-    #copyright {
-        background-color: black;
-        padding: 5px;
-        height: 40px;
-        line-height: 20px;
-        text-align: center;
-        box-shadow: 0 0 20px black;
-    }
+ 
+
+    
 
     .whyHideCard1, .whyHideCard2, .whyHideCard3, .whyHideCard4, .whyHideCard5, .whyHideCard6, #exTable {
-        display: none;
+        display: ;
     }
 }
 

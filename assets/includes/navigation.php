@@ -1,7 +1,5 @@
-
-    
     <!-- Contenu visible sur tout type de téléphone -->
-    <span class="hidden-sm-up">
+    <span class="hidden-md-up">
         <div class="collapse navbar-toggleable-sm text-sm-center" id="myNav">
             <span class="clearfix hidden-sm-up"><br /><br /></span>
             <div class="row">
@@ -9,7 +7,7 @@
                     <h6 class="text-xs-center text-white bg-info p-1"><i class="fa fa-info" aria-hidden="true"></i> - Information -</h6>
                     <ul class="nav navbar-nav navLeft">
                         <li class="nav-item">
-                            <a href="pourquoi.php" class="nav-link">
+                            <a href="origine.php" class="nav-link">
                             <div class="col-xs-2 text-xs-right"><i class="fa fa-question" aria-hidden="true"></i></div>
                             <div class="col-xs-9 text-xs-center">Pourquoi ce site ?</div>
                             </a>
@@ -85,7 +83,7 @@
                     <p class="text-danger text-xs-center">Aucun lien disponible actuellement.<br />
                     <span class="text-info">(jQuery pratiquement fini)</span></p>
                     <hr>
-                    <p class="text-white text-xs-center"><small>Je vous souhaite une très bonne année 2017.</small></p>
+                    <p class="text-warning text-xs-center"><small>Je vous souhaite une très bonne année 2017.</small></p>
                 </div>
             </div>
         </div>
@@ -93,25 +91,24 @@
 
     <!-- Contenu visible sur tablette et + -->
     <span class="hidden-sm-down">
-        <div class="collapse navbar-toggleable-sm text-sm-center" id="myNav">
-            <ul class="nav navbar-nav float-xs-right">
-                <li class="nav-item">
-                    <a href="" class="nav-link disabled text-xs-center">Pourquoi ce site ?</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link">Réalisations</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link disabled">L'auteur</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link disabled">C.V</a>
-                </li>
-                <li class="nav-item">
-                    <a href="" class="nav-link disabled">Contactez-moi</a>
-                </li>
-            </ul>
-        </div>
+        <ul class="nav navbar-nav float-xs-right" id="myNav2">
+            <li class="nav-item mr-2">
+                <a href="origine.php" class="nav-link disabled text-xs-center underLine"><i class="fa fa-question" aria-hidden="true"></i> Les origines</a>
+            </li>
+            <li class="nav-item mr-2">
+                <a href="realisation.php" class="nav-link underLine"><i class="fa fa-tasks" aria-hidden="true"></i> Réalisations</a>
+            </li>
+            <li class="nav-item mr-2">
+                <a href="qui_suis_je.php" class="nav-link disabled underLine"><i class="fa fa-user-secret" aria-hidden="true"></i> L'auteur</a>
+            </li>
+            <li class="nav-item mr-2">
+                <a href="cv.php" class="nav-link disabled underLine"><i class="fa fa-file-text-o" aria-hidden="true"></i> C.V</a>
+            </li>
+            <li class="nav-item mr-2">
+                <a href="contact.php" class="nav-link disabled underLine"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contactez-moi</a>
+            </li>
+        </ul>
     </span>
 
 
+  

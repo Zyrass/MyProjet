@@ -14,8 +14,12 @@ $(document).ready(function(){
      * --------------- Navigation : tooltips + animations des icones sur tél.
      * ------------------------------------------------------------------------
      */
-    // Ajout des tooltips
+    // Ajout des tooltips (bootstrap 4)
     $('[data-toggle="myTooltip"]').tooltip();
+    $('[data-toggle="tooltipContaintXS"]').tooltip();
+    
+    
+    
     
     // Logo html 5
     $(".bgImg9").hover(function(){
@@ -241,55 +245,6 @@ $(document).ready(function(){
     });
     
     /* ------------------------------------------------------------------------
-     * --------------- Remerciements sur téléphone (callBack)
-     * ------------------------------------------------------------------------
-     */
-    /*
-    // Affichage une à une des personnes que je remercie
-    $(".modalContent").ready(function(){
-        $(".modalContent dl").find(".thanks1").show(1000, function(){
-            $(".modalContent dl").find(".thanks2").show(2500, function(){
-                $(".modalContent dl").find(".thanks3").show(2500, function(){
-                    $(".modalContent dl").find(".thanks4").show(2500, function(){
-                        $(".modalContent dl").find(".thanks5").show(2500, function(){
-                            $(".modalContent dl").find(".thanks6").show(2500, function(){
-                                $(".modalContent dl").find(".thanks7").show(2500, function(){
-                                    $(".modalContent dl").find(".thanks8").show(2500, function(){
-                                        $(".modalContent dl").find(".thanks9").show(2500, function(){
-                                            $(".modalContent dl").find(".thanks10").show(2500, function(){
-                                                $(".modalContent dl").find(".thanks11").show(2500, function(){
-                                                    $(".modalContent dl").find(".thanks12").show(2500, function(){
-                                                        $(".modalContent dl").find(".thanks13").show(2500, function(){
-                                                            $(".modalContent dl").find(".thanks14").show(2500, function(){
-                                                                $(".modalContent dl").find(".thanks15").show(2500, function(){
-                                                                    $(".modalContent dl").find(".thanks16").show(2500, function(){
-                                                                        $(".modalContent dl").find(".thanks17").show(2500, function(){
-                                                                            $(".modalContent dl").find(".thanks18").show(2500, function(){
-                                                                                $(".modalContent dl").find(".thanks19").show(2500, function(){
-
-                                                                                });
-                                                                            });
-                                                                        });
-                                                                    });
-                                                                });
-                                                            });
-                                                        });
-                                                    });
-                                                });
-                                            });
-                                        });
-                                    });
-                                });
-                            });
-                        });
-                    });
-                });
-            });  
-        });
-    }); // Fin callBack (remerciements)
-    */
-    
-    /* ------------------------------------------------------------------------
      * --------------- Logo utilisé pour la conception de ce site.
      * ------------------------------------------------------------------------
      */ 
@@ -444,8 +399,5 @@ $(document).ready(function(){
             "box-shadow"    :   "none"
         });
     });
-
-
-   
-    
+  
 }); // Fin du script jQuery

@@ -1,0 +1,21 @@
+/* ------------------------------------------------------------------------
+* --------- header
+* ------------------------------------------------------------------------ */
+header {
+    div.jumbotron{ 
+        position: relative;
+        margin: 37px 0 20px 0;
+        background-image: url("../../assets/images/bg/bg7.png");
+        border-radius: 0%;
+        border-bottom: 1px solid $inverse;
+        hgroup {
+            span.studentImg {
+                position: absolute;
+                top: -35px;
+                left: 260px;
+                font-size: 18rem;
+                opacity: .2;
+            }
+        }
+    }
+}

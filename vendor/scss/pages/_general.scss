@@ -1,0 +1,36 @@
+/* ---------------------------------------------------------------
+ * --------- General
+ * --------------------------------------------------------------- */
+
+    // Type d'encodage
+    @Charset "UTF8";
+
+    html {
+        /* ----------------- A savoir ?
+        * La taille par défaut du texte étant de 16px, 
+        * ce qui est un peu grand, on diminue donc cette taille 
+        * dès le départ à 10px : (16 x62.5/100 = 10).
+        * ------------------
+        * Donc 10px correspond à 1em. 
+        * --------------------------------------------------- */
+        font-size:62.5%;
+        /* ----------------- Réinitialisation des marges */
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    *, *::before, *::after {
+        -webkit-box-sizing: inherit;
+        -moz-box-sizing: inherit;
+        box-sizing: inherit;
+    }
+    body {
+        background-image: url("../../assets/images/bg/bg5.png");
+        font-family: 'Trirong', serif;
+    }
+
+    hr {
+        width: 70%;
+        margin: 15px auto;
+    }

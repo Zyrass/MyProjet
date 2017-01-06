@@ -6,8 +6,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>LWP - Contact</title>
-        <meta name="description" content="Contactez moi.">
+        <title>LWP - Les origines</title>
+        <meta name="description" content="Venez découvrir pourquoi j'ai conçu ce site..">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <!-- CSS -->
         <!-- CSS Bootstrap 4 -->
@@ -25,7 +25,7 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-            
+
         <nav class="navbar navbar-dark navbar-fixed-top bg-inverse">
             <a href="index.php" class="navbar-brand">Alain <span class="text-uppercase text-warning ">guillon</span> - <i class="fa fa-mobile" aria-hidden="true"></i> <small class="text-info">+33 6.83.13.88.45</small></a>
             <button type="button" class="navbar-toggler clearfix hidden-md-up float-xs-right" data-toggle="collapse" data-target="#myNav"></button>
@@ -34,7 +34,7 @@
             include("assets/includes/navigation.php");
             ?>
         </nav>
-        
+
         <!-- JQuery -->
         <script type="text/javascript" src="vendor/jquery/jquery-3.1.1.min.js"></script>
         <!-- Script Bootstrap 4 -->

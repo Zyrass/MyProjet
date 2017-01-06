@@ -9,9 +9,12 @@
 
     * { 
         box-sizing: border-box; 
-        margin: 1px; 
+        margin: 0; 
         padding: 0; 
     }
+    row {
+        margin: 0px auto;
+    }    
 /* --------------------------------------------------- A savoir ?
  * La taille par défaut du texte étant de 16px, 
  * ce qui est un peu grand, on diminue donc cette taille 
@@ -21,40 +24,67 @@
 
     body {
         background-image: url("../../assets/images/bg/bg5.png");
+        background-size: cover;
         font-family: 'Trirong', serif;
     }
+    
     figure img {
-        filter : sepia(100%);
+        filter : sepia(100%);  
     }
-    .bgImg {
-        background-image: url("../../assets/images/bg/bg7.png");
-        padding: 15px;    
-        opacity: .1;
+   .bgImg {
+       background-image: url("../../assets/images/bg/bg7.png");
+       opacity: .1;
+       cursor: pointer;
     }
+
+/* -----------------------------------------------------
+ * --------- Balise Heading (h1 h2 h3 etc..)
+ * ----------------------------------------------------- */
+    h1 {
+        font-size: 4.5em;
+    }
+    h2 {
+        font-size: 4em;
+    }
+    h3 {
+        font-size: 3.5em;
+    }
+    h4 {
+        font-size: 3em;
+    }
+    h5 {
+        font-size: 2.5em;
+    }
+    h6 {
+        font-size: 2em;
+    }
+
 /* -----------------------------------------------------
  * --------- Navigation
  * ----------------------------------------------------- */
-    /* Taille min de 300px */
-    @media screen and(min-width: 300px) {
-        nav, footer.footerTel {
-            box-shadow: 0 0 20px black;
-        }
+    #myNav {
+        margin-top: 10px;
+    }
+    ul.navLeft li {
+        padding: 15px;
+        margin-top: 10px;
+        font-size: 1.5em;
     }
 /* ------------------------------------------------------------------------
  * --------- header
  * ------------------------------------------------------------------------ */
     div.jumbotron, #remerciements { 
         position: relative;
-        margin: 21px auto;
+        margin: 21px 0 21px 0;
         background-image: url("../../assets/images/bg/bg7.png");
         border-radius: 0%;
     }
 
     .studentImg {
         position: absolute;
-        top: -5px;
-        left: 210px;
-        font-size: 12rem;
+        top: -8px;
+        left: 180px;
+        font-size: 18rem;
         opacity: .2;
     }
 /* ------------------------------------------------------------------------
@@ -69,9 +99,11 @@
  * --------- Contenu
  * ----------------------------------------------------- */
     .contentBlockquote {
-        background-image: url(../../assets/images/bg/bg.png);
-        background-color: black;
+        background-image: url(../../assets/images/bg/bg8.png);
+        filter: grayscale(10%);
         color: azure;
+        margin: 0;
+        padding: 10px;
     }
 /* -----------------------------------------------------
  * --------- Remerciements
@@ -81,6 +113,7 @@
     }
     dl dt, dl dd {
         display: none;
+        font-size: 1.6em;
     }
 
 /* ------------------------------------------------------------------------
@@ -94,6 +127,7 @@
     p {
         word-spacing: 2px;
         letter-spacing: 3px;
+        font-size: 1.3em;
         
     }
 /* ------------------------------------------------------------------------
@@ -104,21 +138,20 @@
         box-shadow: 0 0 10px antiquewhite;
     }
 
-
+    #bgCardInfoImportante {
+        background-image: url("../../assets/images/bg/bg7.png");
+        background-color: antiquewhite;
+    }
 
 /* ------------------------------------------------------------------------
  * --------- Footer
  * ------------------------------------------------------------------------ */
     .footerTel {
-            background-color: #373a3c;    
+        width: 100%;
+        padding: 20px;
+        background-color: #373a3c;
+        box-shadow: 0 0 10px black;
     }
-    
-
-     #copyright {
-        background-color: black;
-        padding: 5px;
-        height: 40px;
-        line-height: 20px;
+    #copyright {
         text-align: center;
-        box-shadow: 0 0 20px black;
     }

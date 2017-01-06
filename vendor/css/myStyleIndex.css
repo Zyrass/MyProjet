@@ -33,32 +33,18 @@
      * ----------------------------------------------------- */
 
     
-    
-    
-    
-
-    
-    figure img {
-        filter: grayscale(70%)
-    }
-    
-    div.contentBlockquote blockquote {
-        border-right-color: #5bc0de;
-        border-right-width: 10px;
-    }
-    div.contentBlockquote blockquote p {
-        color: #5bc0de;
-    }
 
    
 
 
 
     #contentSite figure img, #remerciements ol li:hover {
-        cursor: pointer;
+        
     }
  
-
+    .row9 {
+        background-color: #373a3c;
+    }
     
 
     .whyHideCard1, .whyHideCard2, .whyHideCard3, .whyHideCard4, .whyHideCard5, .whyHideCard6, #exTable {

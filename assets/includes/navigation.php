@@ -1,10 +1,8 @@
-    <!-- Contenu visible sur tout type de téléphone -->
-    <span class="hidden-md-up">
-        <div class="collapse navbar-toggleable-sm text-sm-center" id="myNav">
+        <div class="collapse navbar-toggleable-xs text-xs-center" id="myNav">
             <span class="clearfix hidden-sm-up"><br /><br /></span>
             <div class="row">
                 <div class="col-xs-8 wow slideInDown">
-                    <h6 class="text-xs-center text-white bg-info p-1"><i class="fa fa-info" aria-hidden="true"></i> - Information -</h6>
+                    <h4 class="text-xs-center text-white bg-info p-1"><i class="fa fa-info" aria-hidden="true"></i> - Information -</h4>
                     <ul class="nav navbar-nav navLeft">
                         <li class="nav-item">
                             <a href="origine.php" class="nav-link">
@@ -47,7 +45,7 @@
                     </ul>
                 </div>
                 <div class="col-xs-4 wow slideInDown">
-                    <h6 class="text-xs-center text-white bg-warning p-1"><i class="fa fa-code-fork" aria-hidden="true"></i> Révision</h6>
+                    <h4 class="text-xs-center text-white bg-warning p-1 mb-3"><i class="fa fa-code-fork" aria-hidden="true"></i> Révision</h4>
                     <ul class="nav navbar-nav">
                         <div class="col-xs-6">
                             <li class="nav-item">
@@ -87,28 +85,3 @@
                 </div>
             </div>
         </div>
-    </span>
-
-    <!-- Contenu visible sur tablette et + -->
-    <span class="hidden-sm-down">
-        <ul class="nav navbar-nav float-xs-right" id="myNav2">
-            <li class="nav-item mr-2">
-                <a href="origine.php" class="nav-link disabled text-xs-center underLine"><i class="fa fa-question" aria-hidden="true"></i> Les origines</a>
-            </li>
-            <li class="nav-item mr-2">
-                <a href="realisation.php" class="nav-link underLine"><i class="fa fa-tasks" aria-hidden="true"></i> Réalisations</a>
-            </li>
-            <li class="nav-item mr-2">
-                <a href="qui_suis_je.php" class="nav-link disabled underLine"><i class="fa fa-user-secret" aria-hidden="true"></i> L'auteur</a>
-            </li>
-            <li class="nav-item mr-2">
-                <a href="cv.php" class="nav-link disabled underLine"><i class="fa fa-file-text-o" aria-hidden="true"></i> C.V</a>
-            </li>
-            <li class="nav-item mr-2">
-                <a href="contact.php" class="nav-link disabled underLine"><i class="fa fa-envelope-o" aria-hidden="true"></i> Contactez-moi</a>
-            </li>
-        </ul>
-    </span>
-
-
-  

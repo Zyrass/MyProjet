@@ -64,52 +64,19 @@
         margin: 0;
         padding: 10px;
     }
-/* -----------------------------------------------------
- * --------- Remerciements
- * ----------------------------------------------------- */
-    #remerciements {
-        height: 330px;
-    }
-    dl dt, dl dd {
-        display: none;
-        font-size: 1.6em;
-    }
+
+
+
 
 /* ------------------------------------------------------------------------
  * --------- Style des paragrapges
  * ------------------------------------------------------------------------ */
-    /* Première lettre */
-    p:first-letter {
-        font-size: 1.6em;
-    }
-    /* Espacement des lettres et des mots*/
-    p {
-        word-spacing: 2px;
-        letter-spacing: 3px;
-        font-size: 1.3em;
-        
-    }
-/* ------------------------------------------------------------------------
- * --------- Style des paragrapges
- * ------------------------------------------------------------------------ */
-    /* Première lettre */
-    jumbotron.askLogo {
-        box-shadow: 0 0 10px antiquewhite;
-    }
 
-    #bgCardInfoImportante {
-        background-image: url("../../assets/images/bg/bg7.png");
-        background-color: antiquewhite;
-    }
 
 /* ------------------------------------------------------------------------
  * --------- Footer
  * ------------------------------------------------------------------------ */
     .footerTel {
-        width: 100%;
-        padding: 20px;
-        background-color: #373a3c;
-        box-shadow: 0 0 10px black;
     }
     #copyright {
         text-align: center;

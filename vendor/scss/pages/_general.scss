@@ -20,7 +20,7 @@
         box-sizing: border-box;
     }
 
-    *, *::before, *::after {
+    *, *:before, *:after {
         -webkit-box-sizing: inherit;
         -moz-box-sizing: inherit;
         box-sizing: inherit;
@@ -31,6 +31,56 @@
     }
 
     hr {
-        width: 70%;
-        margin: 15px auto;
+        width: 60%;
+        margin-right: 0;
     }
+    .jumbotron {
+        border-radius: 0%;
+    }
+
+/* ------------------------------------------------------------------------
+* --------- Style des paragrapges
+* ------------------------------------------------------------------------ */
+/* Première lettre */
+p:first-letter {
+    font-size: 1.6em;
+}
+/* Espacement des lettres et des mots*/
+p {
+    word-spacing: 2px;
+    letter-spacing: 3px;
+    font-size: 1.3em;
+
+}
+/* Première lettre */
+jumbotron.askLogo {
+    box-shadow: 0 0 10px antiquewhite;
+}
+
+#bgCardInfoImportante {
+    background-image: url("../../assets/images/bg/bg7.png");
+    background-color: antiquewhite;
+}
+/* --------------------------------------------------------------
+* --------- Modal remerciements
+* --------------------------------------------------------------- */
+
+#bgModal {
+    background-image: url(../../assets/images/bg/bg7.png);
+    filter: grayscale(100%);
+}
+
+// Logo du fastt
+.imgModal {
+    width: 100%;
+    filter: grayscale(100%);
+}
+.card {
+    div.card-colorf {
+        background-color: antiquewhite;
+        #headingT.h4 a {
+            text-decoration: none;
+            padding-bottom: 5px;
+        }
+    }
+}

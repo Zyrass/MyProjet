@@ -4,16 +4,16 @@
 header {
     div.jumbotron{ 
         position: relative;
-        margin: 37px 0 20px 0;
+        margin: 37px 0 0px 0;
         background-image: url("../../assets/images/bg/bg7.png");
-        border-radius: 0%;
         border-bottom: 1px solid $inverse;
         hgroup {
-            span.studentImg {
+            .studentImg {
+                transform: rotate(-45deg);
                 position: absolute;
-                top: -35px;
-                left: 260px;
-                font-size: 18rem;
+                top: 15px;
+                left: 25px;
+                font-size: 15rem;
                 opacity: .2;
             }
         }

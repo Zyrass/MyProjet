@@ -1,5 +1,42 @@
 /* ---------------------------------------------------------------
-* --------- Auteur  : Alain GUILLON
-* --------- Date    : 05/01/2017
-* --------- Version : 0.1 alpha
+* --------- Footer
 * --------------------------------------------------------------- */
+
+footer {
+    font-size: 1.5em;
+    width: 100%;
+    height: 40px;
+    line-height: 20px;
+    background-color: $inverse;
+    box-shadow: 0 0 10px $black;
+
+}
+
+
+// Col-sm => 576px
+@media (min-width: 576px) {
+    footer {
+        font-size: 2em;
+    }
+}
+
+// Col-md => 768px
+@media (min-width: 768px) {
+    footer {
+        font-size: 2.5em;
+    }
+}
+
+// Col-lg => 992px
+@media (min-width: 992px) {
+    footer {
+        font-size: 3em;
+    }
+}
+
+// Col-xl => 1200px
+@media (min-width: 1200px) {
+    footer {
+        font-size: 3.5em;
+    }
+}

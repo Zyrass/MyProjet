@@ -18,6 +18,12 @@ $(document).ready(function(){
     $('[data-toggle="myTooltip"]').tooltip();
     $('[data-toggle="tooltipContaintXS"]').tooltip();
     
+    // Fonctionnement de la tabulation
+    $('#myTab a').click(function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    })
+    
     
     
     

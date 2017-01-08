@@ -46,9 +46,9 @@
                                     </div>
                                     <!-- Contenu du FASTT -->
                                     <div class="row">
-                                        <div class="col-xs-10 offset-xs-1" data-parent="#fastt" href="#eleanore" class="collapsed">
+                                        <div class="col-xs-10 offset-xs-1">
                                             <!-- Madame DEDABB -->
-                                            <div class="card mb-1 collapsed" href="#fastt" aria-expanded="false">
+                                            <div class="card mb-1 collapsed"  data-toggle="collapse" data-parent="#fastt" href="#debbab" aria-expanded="false" aria-controls="debabb">
                                                 <div class="card-header card-colorf" role="tab">
                                                     <h4 class="mb-0 text-xs-center" id="headingT">
                                                         <a>Mme DEBBAB</a>
@@ -61,13 +61,13 @@
                                                 </div>
                                             </div>
                                             <!-- Madame FERETTI -->
-                                            <div class="card mb-1">
+                                            <div class="card mb-1 collapsed"  data-toggle="collapse" data-parent="#fastt" href="#feretti" aria-expanded="false" aria-controls="feretti">
                                                 <div class="card-header card-colorf" role="tab">
                                                     <h4 class="mb-0 text-xs-center" id="headingT">
                                                         <a>Mme FERETTI</a>
                                                     </h4>
                                                 </div>
-                                                <div>
+                                                <div id="feretti" class="collapse" role="tabpanel" aria-labelledby="feretti" aria-expanded="false">
                                                     <div class="card-block">
                                                         <p>Madame FERETTI était présente pour nous lorsque financièrement c'était très compliqué. Quand j'ai appris que l'état de ma fille c'était aggravé et que c'était pratiquement la fin, je suis le 8 août 2016, passé sous le statut de dépressif. Aujourd'hui ma fille s'en sort, je commence à allez mieux. Il faut dire qu'apprendre que sa propre fille rentre à ma demande à la maison sous le une certaine condition. Soit en soin palliatif... Madame FERETTI c'est déplacée en personne chez moi pour récupérer tous les documents nécessaire pour me permettre d'être payé par la sécurité social... Je n'avais pas le courage de me déplacer de moi même sachant qu'elle pouvait (ma fille) partir à chaque instant. Aujourd'hui on est très loin de ce que j'ai pu vivre.... malgré que la maladie est encore là.</p>
                                                     </div>
@@ -82,85 +82,104 @@
                                 <!-- Section famille -->
                                 <div class="row">
                                     <!-- Logo famille -->                                    
-                                    <div class="col-xs-6 offset-xs-3 pt-2">
-                                        <img src="assets/images/thanks/famille.png" alt="Logo famille" class="imgModal mb-3">
-                                    </div>
+                                   
                                     <!-- Famille -->
                                     <div class="row">
                                         <div class="col-xs-10 offset-xs-1">
-                                            <!-- Ma conjointe -->
-                                            <div class="card mb-1">
-                                                <div class="card-header card-colorf" role="tab">
-                                                    <img src="../../../assets/images/logo/css.png" alt="Photo de ma conjointe" data-toggle="collapse" data-parent="#accordion" href="#marjo" aria-expanded="false" aria-controls="marjo" class="collapsed img-thumbnail">
-                                                </div>
-                                                <div id="marjo" class="collapse" role="tabpanel" aria-labelledby="marjo" aria-expanded="false">
-                                                    <div class="card-block">
-                                                        <p>Marjorie, ma conjointe depuis plus de 12 ans. Elle m'a offert le plus beau cadeau qu'un homme puisse rêver. Un enfant. Enfin elle a ré-itérer l'opération 3 fois. Pour notre dernière nous avons de février jusqu'à début septembre 2016 passé le 3/4 de notre temps à l'hôpital HFME pour soutenir la pépette. Moralement nous avons été énormément touché lorsqu'on a appris qu'elle pouvait partir. Aujourd'hui elle va mieux... Par contre la maladie est toujours présente. Je tiens à la remercier d'être aussi précise dans la gestion des traitement de ma fille. Mais surtout, même si ça n'a pas été toujours très rose entre nous, on a su se serrer les coudes avec ce qu'ils nous arrivait. Notre couple n'a pas éclaté bien au contraire cette situation nous a encore plus rapprocher. Merci ma chérie d'être présente chaque jour. Je t'aime.</p>
+                                            <!-- Ma conjointe -->                                        
+                                            <div class="jumbotron bg-inverse mt-2">
+                                                <div class="media text-white">
+                                                    <a class="media-left media-middle" href="#">
+                                                        <img class="media-object img-thumbnail" src="assets/images/portraits/marjorie.jpg" alt="Generic placeholder image" width="64px" height="64px">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Marjorie</h4>
+                                                        Marjorie, ma conjointe depuis plus de 12 ans. Elle m'a offert le plus beau cadeau qu'un homme puisse rêver. Un enfant. Enfin elle a ré-itérer l'opération 3 fois. Pour notre dernière nous avons de février jusqu'à début septembre 2016 passé le 3/4 de notre temps à l'hôpital HFME pour soutenir la pépette. Moralement nous avons été énormément touché lorsqu'on a appris qu'elle pouvait partir. Aujourd'hui elle va mieux... Par contre la maladie est toujours présente. Je tiens à la remercier d'être aussi précise dans la gestion des traitement de ma fille. Mais surtout, même si ça n'a pas été toujours très rose entre nous, on a su se serrer les coudes avec ce qu'ils nous arrivait. Notre couple n'a pas éclaté bien au contraire cette situation nous a encore plus rapprocher. Merci ma chérie d'être présente chaque jour. Je t'aime.
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </div>                                            
                                             <!-- Éléanore -->
-                                            <div class="card">
-                                                <div class="card-header card-colorf" role="tab">
-                                                    <img src="../../../assets/images/logo/css.png" alt="Photo d'Éléanore" data-toggle="collapse" data-parent="#accordion" href="#eleanore" aria-expanded="false" aria-controls="eleanore" class="collapsed img-thumbnail">
-                                                </div>
-                                                <div id="eleanore" class="collapse" role="tabpanel" aria-labelledby="eleanore" aria-expanded="false">
-                                                    <div class="card-block">
-                                                        <p>Éléanore, je suis tellement fièr de toi. Tu ne le sais pas, tu ne t'en rends pas compte mais tu te bat chaque jour depuis le premier jour de ta naissance, contre une maladie très très grave. Tu as une force de caractère hors du commun. Pour beaucoup de monde tu es un exemple. Aujourd'hui tu as du retard sur beaucoup de chose mais très franchement on s'en contre fou. Tu évolues a ton rythme et tu le fais très très bien. Sache tout de même que je t'aime pationnément et que je te souhaite le meilleur !! gros bisous. Papa!</p>
+                                            <div class="jumbotron bg-warning">
+                                                <div class="media">
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Éléanore</h4>
+                                                        Éléanore, je suis tellement fièr de toi. Tu ne le sais pas, tu ne t'en rends pas compte enfin je l'espère... Mais tu te bat chaque jour depuis le premier jour de ta naissance, contre une maladie très très grave. Tu as une force de caractère hors du commun. Pour beaucoup de monde tu es un exemple. Aujourd'hui tu as du retard sur beaucoup de chose mais très franchement on s'en contre fou. Tu évolues a ton rythme et tu le fais très très bien. Sache tout de même que je t'aime pationnément et que je te souhaite le meilleur !! gros bisous. Papa!
                                                     </div>
+                                                    <a class="media-right media-middle" href="#">
+                                                        <img class="media-object img-thumbnail" src="assets/images/portraits/eleanore.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                    </a>
                                                 </div>
                                             </div>
-                                            <!-- Sheryle & Océane -->
-                                            <div class="card">
-                                                <div class="card-header" role="tab" id="headingT">
-                                                    <img src="../../../assets/images/logo/css.png" alt="Photo de Sheryle" data-toggle="collapse" data-parent="#accordion" href="#sheryle" aria-expanded="false" aria-controls="sheryle" class="collapsed img-thumbnail">
-                                                </div>
-                                                <div id="sheryle" class="collapse" role="tabpanel" aria-labelledby="sheryle" aria-expanded="false">
-                                                    <div class="card-block">
-                                                        <p>Sheryle, ma fille cadette. Chaque jour elle m'apporte une joie immense. Chaque jour elle fait connerie sur connerie.</p>
+                                            <!-- Sheryle -->                                        
+                                            <div class="jumbotron bg-inverse">
+                                                <div class="media text-white">
+                                                    <a class="media-left media-middle" href="#">
+                                                        <img class="media-object img-thumbnail" src="assets/images/portraits/sheryle.jpg" alt="Generic placeholder image" width="64px" height="64px">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Sheryle</h4>
+                                                        Sheryle, ma fille cadette. Tu es et tu restera mon tout premier grand amour. Alors souvent tu te fais remarquées, il arrive parfois que je suis obligé de te gronder. C'est pour ton bien. Je t'aime tellement que je ne veux pas que tu te comporte mal avec qui que ce soit. Tu as le droit de faire des bétises et c'est tout à fait normal :D. En tout cas je suis tellement fièr de toi quand tu t'occupes de ta petite soeur qui est gravement malade. Sheryle je t'aime vraiment très fort. 
                                                     </div>
+                                                </div>
+                                            </div>  
+                                            <!-- Océane -->
+                                            <div class="jumbotron bg-warning">
+                                                <div class="media">
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Océane</h4>
+                                                        Océane, ma seconde princesse, le jour de ta naissance tu as faillis mourrir avec ta mère lors d'un accouchement ou nous avons tous frôler la catastrophe. Surtout maman et toi. Aujourd'hui tu es là, tu es notre petite fofolle, et, je t'aime plus que tout au monde. Tu as un coeur énorme, dans le sens ou tu partages tout. Quitte à ne rien avoir. Attention tout de même !! Un jour ça peut réellement te jouer de très mauvais tours. Je pense à toi tous les jours et je t'aime très très fort !!
+                                                    </div>
+                                                    <a class="media-right media-middle" href="#">
+                                                        <img class="media-object img-thumbnail" src="assets/images/portraits/oceane.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                    </a>
                                                 </div>
                                             </div>
-
-                                            <!-- Maman -->
-                                            <div class="card">
-                                                <div class="card-header" role="tab" id="headingT">
-                                                    <h5 class="mb-0 text-xs-center">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#maman" aria-expanded="false" aria-controls="maman" class="collapsed">Maman</a>
-                                                    </h5>
-                                                </div>
-                                                <div id="maman" class="collapse" role="tabpanel" aria-labelledby="maman" aria-expanded="false">
-                                                    <div class="card-block">
-                                                        <p>Malgré qu'elle ne comprends rien sur tout ces langages, maman épaule ma conjointe au quotidien sur vraiment beaucoup de point. Merci maman je t'aime.</p>
+                                            <!-- Maman -->                                        
+                                            <div class="jumbotron bg-inverse">
+                                                <div class="media text-white">
+                                                    <a class="media-left media-middle" href="#">
+                                                        <img class="media-object img-thumbnail" src="assets/images/portraits/maman.jpg" alt="Generic placeholder image" width="64px" height="64px">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Maman</h4>
+                                                        Maman, que dire de toi. Tu es mon sens, celle qui m'a mit au monde. Sans toi je ne serais que poussière. Je t'aime malgré que parfois tu ne comprends pas ce que je fais. Je ne t'en veux pas malgré que ça m'embête !! Bref tu as eu à noël 2016, 71 ans et tu fais encore énormément de chose.. Comment fais tu !? Je suis vraiment très fièr de toi. Par contre pense de temps à autre a te ménager tu as quand même le droit hein. Merci aussi maman d'être là pour les enfants tu leurs apportes beaucoup de connerie mais qu'es-ce-qu'on rigole. Gros gros bisous maman je t'aime. 
                                                     </div>
+                                                </div>
+                                            </div>  
+                                            <!-- Pascal -->
+                                            <div class="jumbotron bg-warning">
+                                                <div class="media">
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Pascal</h4>
+                                                        ...
+                                                    </div>
+                                                    <a class="media-right media-middle" href="#">
+                                                        <img class="media-object img-thumbnail" src="assets/images/portraits/pascal.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                    </a>
                                                 </div>
                                             </div>
-
-                                            <!-- Beaux-Parents -->
-                                            <div class="card">
-                                                <div class="card-header" role="tab" id="headingT">
-                                                    <h5 class="mb-0 text-xs-center">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#beauxParents" aria-expanded="false" aria-controls="beauxParents" class="collapsed">Chantal & Pascal</a>
-                                                    </h5>
-                                                </div>
-                                                <div id="beauxParents" class="collapse" role="tabpanel" aria-labelledby="beauxParents" aria-expanded="false">
-                                                    <div class="card-block">
-                                                        <p>Merci, d'avoir fait autant de borne lorsqu'on avait besoin de soutient pour Eléanore. Et puis il n'y a pas que ça, merci pour tout ce que vous pouvez nous apporter.</p>
+                                            <!-- Chantal -->                                        
+                                            <div class="jumbotron bg-inverse">
+                                                <div class="media text-white">
+                                                    <a class="media-left media-middle" href="#">
+                                                        <img class="media-object img-thumbnail" src="assets/images/portraits/chantal.jpg" alt="Generic placeholder image" width="64px" height="64px">
+                                                    </a>
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Chantal</h4>
+                                                        ...
                                                     </div>
                                                 </div>
-                                            </div>
-
-                                            <!-- Ma marraine -->
-                                            <div class="card">
-                                                <div class="card-header" role="tab" id="headingT">
-                                                    <h5 class="mb-0 text-xs-center">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#marraine" aria-expanded="false" aria-controls="marraine" class="collapsed">Véronique Guillon</a>
-                                                    </h5>
-                                                </div>
-                                                <div id="marraine" class="collapse" role="tabpanel" aria-labelledby="marraine" aria-expanded="false">
-                                                    <div class="card-block">
-                                                        <p>Ma marraine avec qui j'ai de longue discution au téléphone. Je t'embrasse très chaleureusement.</p>
+                                            </div>  
+                                            <!-- Véronique -->
+                                            <div class="jumbotron bg-warning">
+                                                <div class="media">
+                                                    <div class="media-body">
+                                                        <h4 class="media-heading">Véronique</h4>
+                                                        ...
                                                     </div>
+                                                    <a class="media-right media-middle" href="#">
+                                                        <img class="media-object img-thumbnail" src="assets/images/portraits/veronique.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>

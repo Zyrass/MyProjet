@@ -3,7 +3,7 @@
  * --------------------------------------------------------------- */
 
     // Type d'encodage
-    @Charset "UTF8";
+    @charset"UTF8";
 
     html {
         /* ----------------- A savoir ?
@@ -30,57 +30,32 @@
         font-family: 'Trirong', serif;
     }
 
-    hr {
+    .hrHeader {
         width: 60%;
         margin-right: 0;
     }
     .jumbotron {
         border-radius: 0%;
+        width: 100%;
+        margin: 0 auto;
     }
 
 /* ------------------------------------------------------------------------
 * --------- Style des paragrapges
 * ------------------------------------------------------------------------ */
-/* Première lettre */
-p:first-letter {
-    font-size: 1.6em;
-}
 /* Espacement des lettres et des mots*/
 p {
     word-spacing: 2px;
     letter-spacing: 3px;
-    font-size: 1.3em;
-
-}
-/* Première lettre */
-jumbotron.askLogo {
-    box-shadow: 0 0 10px antiquewhite;
 }
 
 #bgCardInfoImportante {
     background-image: url("../../assets/images/bg/bg7.png");
-    background-color: antiquewhite;
 }
 /* --------------------------------------------------------------
 * --------- Modal remerciements
 * --------------------------------------------------------------- */
-
 #bgModal {
     background-image: url(../../assets/images/bg/bg7.png);
-    filter: grayscale(100%);
 }
 
-// Logo du fastt
-.imgModal {
-    width: 100%;
-    filter: grayscale(100%);
-}
-.card {
-    div.card-colorf {
-        background-color: antiquewhite;
-        #headingT.h4 a {
-            text-decoration: none;
-            padding-bottom: 5px;
-        }
-    }
-}

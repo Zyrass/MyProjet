@@ -1,60 +1,60 @@
 /* ---------------------------------------------------------------
 * --------- Navigation
 * --------------------------------------------------------------- */
-    .navbar-brand {
-        font-size: 1.5em;
-        margin-top: 0px;
+.navbar-brand {
+    font-size: 1.5em;
+    margin-top: 0px;
+}
+
+#myNav, #myNav2 {
+    margin-top: 5px;
+}
+#myNav2 {
+    height: 35px;
+}
+
+ul.navLeft li {
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 1.4em;
+}
+
+// Col-sm => 576px
+@media (min-width: 576px) {
+    #myNav {
+        margin-top: 35px;
     }
-    
-    #myNav, #myNav2 {
-        margin-top: 5px;
+    ul.navLeft li {
+        padding: 25px;
+        font-size: 1.45em;
+    }
+}
+
+// Col-md => 768px
+@media (min-width: 768px) {
+    .navbar-brand {
+        margin-top: 1px;
     }
     #myNav2 {
-        height: 35px;
+        margin-top: 0;
+        font-size: 1.40em;
+        .nav-item .nav-link:hover {
+            transition: border-bottom .5s linear;
+            border-bottom: 1px solid $warning;
+        }
     }
+}
 
-    ul.navLeft li {
-        padding: 15px;
-        margin-top: 10px;
-        font-size: 1.4em;
+// Col-lg => 992px
+@media (min-width: 992px) {
+    #myNav2 {
+        font-size: 1.5em;
     }
+}
 
-    // Col-sm => 576px
-    @media (min-width: 576px) {
-        #myNav {
-            margin-top: 35px;
-        }
-        ul.navLeft li {
-            padding: 25px;
-            font-size: 1.45em;
-        }
+// Col-xl => 1200px
+@media (min-width: 1200px) {
+    #myNav2 {
+        font-size: 1.55em;
     }
-
-    // Col-md => 768px
-    @media (min-width: 768px) {
-        .navbar-brand {
-            margin-top: 1px;
-        }
-        #myNav2 {
-            margin-top: 0;
-            font-size: 1.40em;
-            .nav-item .nav-link:hover {
-                transition: border-bottom .5s linear;
-                border-bottom: 1px solid $warning;
-            }
-        }
-    }
-
-    // Col-lg => 992px
-    @media (min-width: 992px) {
-        #myNav2 {
-            font-size: 1.5em;
-        }
-    }
-
-    // Col-xl => 1200px
-    @media (min-width: 1200px) {
-        #myNav2 {
-            font-size: 1.55em;
-        }
-    }
+}

@@ -1,5 +1,5 @@
-        <div class="collapse navbar-toggleable-xs text-xs-center" id="myNav">
-            <span class="clearfix hidden-sm-up"><br /><br /></span>
+        <div class="collapse navbar-toggleable-sm text-xs-center" id="myNav">
+            <span class="clearfix hidden-md-up"><br /><br /></span>
             <div class="row">
                 <div class="col-xs-8 wow slideInDown">
                     <h4 class="text-xs-center text-white bg-info p-1"><i class="fa fa-info" aria-hidden="true"></i> - Information -</h4>

@@ -25,7 +25,7 @@
                                 <a class="nav-link" data-toggle="tab" href="#amis" role="tab">Amis</a>
                             </li>
                             <li class="nav-item h4">
-                                <a class="nav-link" data-toggle="tab" href="#3wa" role="tab">3WA</a>
+                                <a class="nav-link" data-toggle="tab" href="#troisWa" role="tab">3WA</a>
                             </li>
                             <li class="nav-item h4">
                                 <a class="nav-link" data-toggle="tab" href="#mooc" role="tab">Mooc</a>
@@ -40,638 +40,498 @@
                             <div class="tab-pane active" id="fastt" role="tabpanel">
                                 <!-- Section Fastt -->
                                 <div class="row">
-                                    <!-- Logo du FASTT -->                                    
-                                    <div class="col-xs-6 offset-xs-3 pt-2">
-                                        <img src="assets/images/thanks/fastt.png" alt="Logo du fastt" class="imgModal mb-3">
-                                    </div>
-                                    <!-- Contenu du FASTT -->
-                                    <div class="row">
-                                        <div class="col-xs-10 offset-xs-1">
-                                            <!-- Madame DEDABB -->
-                                            <div class="card mb-1 collapsed"  data-toggle="collapse" data-parent="#fastt" href="#debbab" aria-expanded="false" aria-controls="debabb">
-                                                <div class="card-header card-colorf" role="tab">
-                                                    <h4 class="mb-0 text-xs-center" id="headingT">
-                                                        <a>Mme DEBBAB</a>
-                                                    </h4>
-                                                </div>
-                                                <div id="debbab" class="collapse" role="tabpanel" aria-labelledby="debbab" aria-expanded="false">
-                                                    <div class="card-block">
-                                                        <p>Madame DEBBAB, sans elle, je n'aurais jamais pu intégrer la 3W Academy ou si mais bien plus tardivement. Lors de mon accident de travail fin 2013, j'ai été suivi par le fastt et tout particulièrement par mme DEBBAB. Elle ma conseillée une reconversion professionnel suite à mon état de santé. La médecine du travail acceptait mon projet de reconversion et par la suite, madame DEBBAB c'est démenée pour moi. Surtout à de nombreux problèmes que me posait mon ancienne boîte d'intérim. Petit exemple : "Elle ne remplissait pas les documents comme il le fallait". Pour espérer intégrer la 3WA j'étais limiter dans le temps. Grâce à sa ténacitée et malgré un timming très juste, j'ai pu intégrer la 3WA pour faire partie de la promotion L9. Ainsi, madame DEBABB, je tiens à vous remercier très chaleureusement.</p>
-                                                    </div>
+                                    <div class="col-xs-12">
+                                        <!-- Madame DEDABB -->                                        
+                                        <div class="jumbotron bg-inverse mt-2">
+                                            <div class="media text-white">
+                                                <a class="media-left media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/femme.png" alt="Generic placeholder image" width="64px" height="64px">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Mme DEBBAB</h4>
+                                                    Madame DEBBAB, sans elle, je n'aurais jamais pu intégrer la 3W Academy ou si mais bien plus tardivement. Lors de mon accident de travail fin 2013, j'ai été suivi par le fastt et tout particulièrement par mme DEBBAB. Elle ma conseillée une reconversion professionnel suite à mon état de santé. La médecine du travail acceptait mon projet de reconversion et par la suite, madame DEBBAB c'est démenée pour moi. Surtout à de nombreux problèmes que me posait mon ancienne boîte d'intérim. Petit exemple : "Elle ne remplissait pas les documents comme il le fallait". Pour espérer intégrer la 3WA j'étais limiter dans le temps. Grâce à sa ténacitée et malgré un timming très juste, j'ai pu intégrer la 3WA pour faire partie de la promotion L9. Ainsi, madame DEBABB, je tiens à vous remercier très chaleureusement.
                                                 </div>
                                             </div>
-                                            <!-- Madame FERETTI -->
-                                            <div class="card mb-1 collapsed"  data-toggle="collapse" data-parent="#fastt" href="#feretti" aria-expanded="false" aria-controls="feretti">
-                                                <div class="card-header card-colorf" role="tab">
-                                                    <h4 class="mb-0 text-xs-center" id="headingT">
-                                                        <a>Mme FERETTI</a>
-                                                    </h4>
+                                        </div>         
+                                        <!-- Madame FERETTI -->
+                                        <div class="jumbotron bg-warning">
+                                            <div class="media">
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Mme FERETTI</h4>
+                                                    Madame FERETTI était présente pour nous lorsque financièrement c'était très compliqué. Quand j'ai appris que l'état de ma fille c'était aggravé et que c'était pratiquement la fin, je suis le 8 août 2016, passé sous le statut de dépressif. Aujourd'hui ma fille s'en sort, je commence à allez mieux. Il faut dire qu'apprendre que sa propre fille rentre à ma demande à la maison sous le une certaine condition. Soit en soin palliatif... Madame FERETTI c'est déplacée en personne chez moi pour récupérer tous les documents nécessaire pour me permettre d'être payé par la sécurité social... Je n'avais pas le courage de me déplacer de moi même sachant qu'elle pouvait (ma fille) partir à chaque instant. Aujourd'hui on est très loin de ce que j'ai pu vivre.... malgré que la maladie est encore là.
                                                 </div>
-                                                <div id="feretti" class="collapse" role="tabpanel" aria-labelledby="feretti" aria-expanded="false">
-                                                    <div class="card-block">
-                                                        <p>Madame FERETTI était présente pour nous lorsque financièrement c'était très compliqué. Quand j'ai appris que l'état de ma fille c'était aggravé et que c'était pratiquement la fin, je suis le 8 août 2016, passé sous le statut de dépressif. Aujourd'hui ma fille s'en sort, je commence à allez mieux. Il faut dire qu'apprendre que sa propre fille rentre à ma demande à la maison sous le une certaine condition. Soit en soin palliatif... Madame FERETTI c'est déplacée en personne chez moi pour récupérer tous les documents nécessaire pour me permettre d'être payé par la sécurité social... Je n'avais pas le courage de me déplacer de moi même sachant qu'elle pouvait (ma fille) partir à chaque instant. Aujourd'hui on est très loin de ce que j'ai pu vivre.... malgré que la maladie est encore là.</p>
-                                                    </div>
-                                                </div>
+                                                <a class="media-right media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/femme.png" alt="Generic placeholder image" width="64px" height="">
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> <!-- Fin section fastt -->
                             <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
                             <div class="tab-pane" id="famille" role="tabpanel">
                                 <!-- Section famille -->
                                 <div class="row">
-                                    <!-- Logo famille -->                                    
-                                   
-                                    <!-- Famille -->
-                                    <div class="row">
-                                        <div class="col-xs-10 offset-xs-1">
-                                            <!-- Ma conjointe -->                                        
-                                            <div class="jumbotron bg-inverse mt-2">
-                                                <div class="media text-white">
-                                                    <a class="media-left media-middle" href="#">
-                                                        <img class="media-object img-thumbnail" src="assets/images/portraits/marjorie.jpg" alt="Generic placeholder image" width="64px" height="64px">
-                                                    </a>
-                                                    <div class="media-body">
-                                                        <h4 class="media-heading">Marjorie</h4>
-                                                        Marjorie, ma conjointe depuis plus de 12 ans. Elle m'a offert le plus beau cadeau qu'un homme puisse rêver. Un enfant. Enfin elle a ré-itérer l'opération 3 fois. Pour notre dernière nous avons de février jusqu'à début septembre 2016 passé le 3/4 de notre temps à l'hôpital HFME pour soutenir la pépette. Moralement nous avons été énormément touché lorsqu'on a appris qu'elle pouvait partir. Aujourd'hui elle va mieux... Par contre la maladie est toujours présente. Je tiens à la remercier d'être aussi précise dans la gestion des traitement de ma fille. Mais surtout, même si ça n'a pas été toujours très rose entre nous, on a su se serrer les coudes avec ce qu'ils nous arrivait. Notre couple n'a pas éclaté bien au contraire cette situation nous a encore plus rapprocher. Merci ma chérie d'être présente chaque jour. Je t'aime.
-                                                    </div>
-                                                </div>
-                                            </div>                                            
-                                            <!-- Éléanore -->
-                                            <div class="jumbotron bg-warning">
-                                                <div class="media">
-                                                    <div class="media-body">
-                                                        <h4 class="media-heading">Éléanore</h4>
-                                                        Éléanore, je suis tellement fièr de toi. Tu ne le sais pas, tu ne t'en rends pas compte enfin je l'espère... Mais tu te bat chaque jour depuis le premier jour de ta naissance, contre une maladie très très grave. Tu as une force de caractère hors du commun. Pour beaucoup de monde tu es un exemple. Aujourd'hui tu as du retard sur beaucoup de chose mais très franchement on s'en contre fou. Tu évolues a ton rythme et tu le fais très très bien. Sache tout de même que je t'aime pationnément et que je te souhaite le meilleur !! gros bisous. Papa!
-                                                    </div>
-                                                    <a class="media-right media-middle" href="#">
-                                                        <img class="media-object img-thumbnail" src="assets/images/portraits/eleanore.jpg" alt="Generic placeholder image" width="64px" height="">
-                                                    </a>
+                                    <div class="col-xs-12">
+                                        <!-- Ma conjointe -->                                        
+                                        <div class="jumbotron bg-inverse mt-2">
+                                            <div class="media text-white">
+                                                <a class="media-left media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/marjorie.jpg" alt="Generic placeholder image" width="64px" height="64px">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Marjorie</h4>
+                                                    Marjorie, ma conjointe depuis plus de 12 ans. Elle m'a offert le plus beau cadeau qu'un homme puisse rêver. Un enfant. Enfin elle a ré-itérer l'opération 3 fois. Pour notre dernière nous avons de février jusqu'à début septembre 2016 passé le 3/4 de notre temps à l'hôpital HFME pour soutenir la pépette. Moralement nous avons été énormément touché lorsqu'on a appris qu'elle pouvait partir. Aujourd'hui elle va mieux... Par contre la maladie est toujours présente. Je tiens à la remercier d'être aussi précise dans la gestion des traitement de ma fille. Mais surtout, même si ça n'a pas été toujours très rose entre nous, on a su se serrer les coudes avec ce qu'ils nous arrivait. Notre couple n'a pas éclaté bien au contraire cette situation nous a encore plus rapprocher. Merci ma chérie d'être présente chaque jour. Je t'aime.
                                                 </div>
                                             </div>
-                                            <!-- Sheryle -->                                        
-                                            <div class="jumbotron bg-inverse">
-                                                <div class="media text-white">
-                                                    <a class="media-left media-middle" href="#">
-                                                        <img class="media-object img-thumbnail" src="assets/images/portraits/sheryle.jpg" alt="Generic placeholder image" width="64px" height="64px">
-                                                    </a>
-                                                    <div class="media-body">
-                                                        <h4 class="media-heading">Sheryle</h4>
-                                                        Sheryle, ma fille cadette. Tu es et tu restera mon tout premier grand amour. Alors souvent tu te fais remarquées, il arrive parfois que je suis obligé de te gronder. C'est pour ton bien. Je t'aime tellement que je ne veux pas que tu te comporte mal avec qui que ce soit. Tu as le droit de faire des bétises et c'est tout à fait normal :D. En tout cas je suis tellement fièr de toi quand tu t'occupes de ta petite soeur qui est gravement malade. Sheryle je t'aime vraiment très fort. 
-                                                    </div>
+                                        </div>                                            
+                                        <!-- Éléanore -->
+                                        <div class="jumbotron bg-warning">
+                                            <div class="media">
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Éléanore</h4>
+                                                    Éléanore, je suis tellement fièr de toi. Tu ne le sais pas, tu ne t'en rends pas compte enfin je l'espère... Mais tu te bat chaque jour depuis le premier jour de ta naissance, contre une maladie très très grave. Tu as une force de caractère hors du commun. Pour beaucoup de monde tu es un exemple. Aujourd'hui tu as du retard sur beaucoup de chose mais très franchement on s'en contre fou. Tu évolues a ton rythme et tu le fais très très bien. Sache tout de même que je t'aime pationnément et que je te souhaite le meilleur !! gros bisous. Papa!
                                                 </div>
-                                            </div>  
-                                            <!-- Océane -->
-                                            <div class="jumbotron bg-warning">
-                                                <div class="media">
-                                                    <div class="media-body">
-                                                        <h4 class="media-heading">Océane</h4>
-                                                        Océane, ma seconde princesse, le jour de ta naissance tu as faillis mourrir avec ta mère lors d'un accouchement ou nous avons tous frôler la catastrophe. Surtout maman et toi. Aujourd'hui tu es là, tu es notre petite fofolle, et, je t'aime plus que tout au monde. Tu as un coeur énorme, dans le sens ou tu partages tout. Quitte à ne rien avoir. Attention tout de même !! Un jour ça peut réellement te jouer de très mauvais tours. Je pense à toi tous les jours et je t'aime très très fort !!
-                                                    </div>
-                                                    <a class="media-right media-middle" href="#">
-                                                        <img class="media-object img-thumbnail" src="assets/images/portraits/oceane.jpg" alt="Generic placeholder image" width="64px" height="">
-                                                    </a>
+                                                <a class="media-right media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/eleanore.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- Sheryle -->                                        
+                                        <div class="jumbotron bg-inverse">
+                                            <div class="media text-white">
+                                                <a class="media-left media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/sheryle.jpg" alt="Generic placeholder image" width="64px" height="64px">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Sheryle</h4>
+                                                    Sheryle, ma fille cadette. Tu es et tu restera mon tout premier grand amour. Alors souvent tu te fais remarquées, il arrive parfois que je suis obligé de te gronder. C'est pour ton bien. Je t'aime tellement que je ne veux pas que tu te comporte mal avec qui que ce soit. Tu as le droit de faire des bétises et c'est tout à fait normal :D. En tout cas je suis tellement fièr de toi quand tu t'occupes de ta petite soeur qui est gravement malade. Sheryle je t'aime vraiment très fort. 
                                                 </div>
                                             </div>
-                                            <!-- Maman -->                                        
-                                            <div class="jumbotron bg-inverse">
-                                                <div class="media text-white">
-                                                    <a class="media-left media-middle" href="#">
-                                                        <img class="media-object img-thumbnail" src="assets/images/portraits/maman.jpg" alt="Generic placeholder image" width="64px" height="64px">
-                                                    </a>
-                                                    <div class="media-body">
-                                                        <h4 class="media-heading">Maman</h4>
-                                                        Maman, que dire de toi. Tu es mon sens, celle qui m'a mit au monde. Sans toi je ne serais que poussière. Je t'aime malgré que parfois tu ne comprends pas ce que je fais. Je ne t'en veux pas malgré que ça m'embête !! Bref tu as eu à noël 2016, 71 ans et tu fais encore énormément de chose.. Comment fais tu !? Je suis vraiment très fièr de toi. Par contre pense de temps à autre a te ménager tu as quand même le droit hein. Merci aussi maman d'être là pour les enfants tu leurs apportes beaucoup de connerie mais qu'es-ce-qu'on rigole. Gros gros bisous maman je t'aime. 
-                                                    </div>
+                                        </div>  
+                                        <!-- Océane -->
+                                        <div class="jumbotron bg-warning">
+                                            <div class="media">
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Océane</h4>
+                                                    Océane, ma seconde princesse, le jour de ta naissance tu as faillis mourrir avec ta mère lors d'un accouchement ou nous avons tous frôler la catastrophe. Surtout maman et toi. Aujourd'hui tu es là, tu es notre petite fofolle, et, je t'aime plus que tout au monde. Tu as un coeur énorme, dans le sens ou tu partages tout. Quitte à ne rien avoir. Attention tout de même !! Un jour ça peut réellement te jouer de très mauvais tours. Je pense à toi tous les jours et je t'aime très très fort !!
                                                 </div>
-                                            </div>  
-                                            <!-- Pascal -->
-                                            <div class="jumbotron bg-warning">
-                                                <div class="media">
-                                                    <div class="media-body">
-                                                        <h4 class="media-heading">Pascal</h4>
-                                                        ...
-                                                    </div>
-                                                    <a class="media-right media-middle" href="#">
-                                                        <img class="media-object img-thumbnail" src="assets/images/portraits/pascal.jpg" alt="Generic placeholder image" width="64px" height="">
-                                                    </a>
+                                                <a class="media-right media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/oceane.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- Maman -->                                        
+                                        <div class="jumbotron bg-inverse">
+                                            <div class="media text-white">
+                                                <a class="media-left media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/maman.jpg" alt="Generic placeholder image" width="64px" height="64px">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Maman</h4>
+                                                    Maman, que dire de toi. Tu es mon sens, celle qui m'a mit au monde. Sans toi je ne serais que poussière. Je t'aime malgré que parfois tu ne comprends pas ce que je fais. Je ne t'en veux pas malgré que ça m'embête !! Bref tu as eu à noël 2016, 71 ans et tu fais encore énormément de chose.. Comment fais tu !? Je suis vraiment très fièr de toi. Par contre pense de temps à autre a te ménager tu as quand même le droit hein. Merci aussi maman d'être là pour les enfants tu leurs apportes beaucoup de connerie mais qu'es-ce-qu'on rigole. Gros gros bisous maman je t'aime. 
                                                 </div>
                                             </div>
-                                            <!-- Chantal -->                                        
-                                            <div class="jumbotron bg-inverse">
-                                                <div class="media text-white">
-                                                    <a class="media-left media-middle" href="#">
-                                                        <img class="media-object img-thumbnail" src="assets/images/portraits/chantal.jpg" alt="Generic placeholder image" width="64px" height="64px">
-                                                    </a>
-                                                    <div class="media-body">
-                                                        <h4 class="media-heading">Chantal</h4>
-                                                        ...
-                                                    </div>
+                                        </div>  
+                                        <!-- Pascal -->
+                                        <div class="jumbotron bg-warning">
+                                            <div class="media">
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Pascal</h4>
+                                                    Pascal, mon beau père. Personne que j'apprécie énormément. C'est mon père de coeur. J'apprends beaucoup auprès de lui quand il peut venir sur Lyon. Bon par contre, il m'a eu.. Me faire une liste d'outils à aller cherché à l'Brico-dépot.. de là, pas de problème sauf que ... Glisser sur cette liste .. un rail de cocke... je n'avais pas l'air con devant le vendeur... Bon l'avantage on pourra dire que je ne fume pas donc ça fait quelqu'un de bien.. Bon ok j'ai cherché une excuse !! En tout cas merci pour tout gros bisous !
                                                 </div>
-                                            </div>  
-                                            <!-- Véronique -->
-                                            <div class="jumbotron bg-warning">
-                                                <div class="media">
-                                                    <div class="media-body">
-                                                        <h4 class="media-heading">Véronique</h4>
-                                                        ...
-                                                    </div>
-                                                    <a class="media-right media-middle" href="#">
-                                                        <img class="media-object img-thumbnail" src="assets/images/portraits/veronique.jpg" alt="Generic placeholder image" width="64px" height="">
-                                                    </a>
+                                                <a class="media-right media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/pascal.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- Chantal -->                                        
+                                        <div class="jumbotron bg-inverse">
+                                            <div class="media text-white">
+                                                <a class="media-left media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/chantal.jpg" alt="Generic placeholder image" width="64px" height="64px">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Chantal</h4>
+                                                    ...
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- Josselin -->
+                                        <div class="jumbotron bg-warning">
+                                            <div class="media">
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Josselin ( Joss )</h4>
+                                                    ...
+                                                </div>
+                                                <a class="media-right media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/ally_joss.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- Véronique -->
+                                        <div class="jumbotron bg-inverse">
+                                            <div class="media text-white">
+                                                <a class="media-left media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/veronique.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Véronique</h4>
+                                                    ...
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                            </div> <!-- Fin section famille -->
+                            <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
                             <div class="tab-pane" id="amis" role="tabpanel">
                                 <!-- Section amis -->
                                 <div class="row">
-                                    <!-- Logo amis -->                                    
-                                    <div class="col-xs-4 offset-xs-4 pt-2">
-                                        <img src="assets/images/thanks/amis.png" alt="Logo amis" class="imgModal mb-3">
-                                    </div>
-                                </div>
-                                <div class="row">                                    
                                     <div class="col-xs-12">
-                                        <!-- Best Friends -->
-                                        <div class="card">
-                                            <div class="card-header" role="tab" id="headingT">
-                                                <h5 class="mb-0 text-xs-center">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#arnaud" aria-expanded="false" aria-controls="arnaud" class="collapsed">Arnaud Favier</a>
-                                                </h5>
-                                            </div>
-                                            <div id="arnaud" class="collapse" role="tabpanel" aria-labelledby="arnaud" aria-expanded="false">
-                                                <div class="card-block">
-                                                    <p>Mon meilleur ami et patron de la société 3BioElec qui se situe dans la région Lyonnaise. Merci pour tout ce que tu as pu faire pour moi.</p>
+                                        <!-- Arnaud Favier -->
+                                        <div class="jumbotron bg-inverse mt-2">
+                                            <div class="media text-white">
+                                                <a class="media-left media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/arnaud.jpg" alt="Generic placeholder image" width="64px" height="64px">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Arnaud</h4>
+                                                    Mon meilleur ami et ce depuis ma plus tendre enfance. Aujourd'hui il est patron de la société 3BioElec qui se situe dans la région Lyonnaise. Il est également le parrain de ma fille aîné, il n'a pas hésité à faire plus de 700 bornes pour faire un baptème. Lorsque j'avais besoin de ces services, il était présent alors qu'il travaillait à l'époque sur marseille. Ce gars est en OR. Je vous recommande chaleureusement de contacter sa sociéter si vous avez le moindre problème en électricité. Pour en revenir à ma famille, merci pour tout ce que tu as pu faire. Gros gros bisous !
                                                 </div>
                                             </div>
-                                        </div>
-
-                                        <!-- My bro. -->
-                                        <div class="card">
-                                            <div class="card-header" role="tab" id="headingT">
-                                                <h5 class="mb-0 text-xs-center">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#tony" aria-expanded="false" aria-controls="tony" class="collapsed">Anthony Vigoureux</a>
-                                                </h5>
+                                        </div>                                            
+                                        <!-- Anthony -->
+                                        <div class="jumbotron bg-warning">
+                                            <div class="media">
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Anthony ( Tony )</h4>
+                                                    Ce gars est unique, à un point que je le considère comme mon frère. Un frère que je n'ai pas eu. Je n'y connais rien en bricolage et tout ça, tony m'aide très souvent dans toutes ces mésaventures pour moi. Egalement, il faut savoir qu'en voiture je suis une bille. Avec ces contacts j'ai pu bénéficié d'énorme réduction sur l'entretient de mon véhicule. Je tiens par la même occasion à remercier son père qui franchement, quand j'ai besoin de X service, est là pour moi. Je finirais par un gros merci pour les délires que t'as avec mes filles et surtout Tony merci pour ta présence au quotidien. Gros bisous !
+                                                </div>
+                                                <a class="media-right media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/tony.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                </a>
                                             </div>
-                                            <div id="tony" class="collapse" role="tabpanel" aria-labelledby="tony" aria-expanded="false">
-                                                <div class="card-block">
-                                                    <p>Une personne que je considère comme mon frère. Merci pour ta présence et ton aide au quotidien.</p>
+                                        </div>
+                                        <!-- Doudou -->                                        
+                                        <div class="jumbotron bg-inverse">
+                                            <div class="media text-white">
+                                                <a class="media-left media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/coco_doudou.jpg" alt="Generic placeholder image" width="64px" height="64px">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Doudou ( Christophe )</h4>
+                                                    ...
                                                 </div>
                                             </div>
-                                        </div>
-
-                                        <!-- Doudou -->
-                                        <div class="card">
-                                            <div class="card-header" role="tab" id="headingT">
-                                                <h5 class="mb-0 text-xs-center">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#doudou" aria-expanded="false" aria-controls="doudou" class="collapsed">Christophe Vigoureux</a>
-                                                </h5>
-                                            </div>
-                                            <div id="doudou" class="collapse" role="tabpanel" aria-labelledby="doudou" aria-expanded="false">
-                                                <div class="card-block">
-                                                    <p>Doudou, un gars exceptionnel. Il dégage une aura tellement positive qu'il m'ai impensable de ne pas le citer ici. Merci mon poulet</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
+                                        </div>  
                                         <!-- Jérôme -->
-                                        <div class="card">
-                                            <div class="card-header" role="tab" id="headingT">
-                                                <h5 class="mb-0 text-xs-center">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#jerome" aria-expanded="false" aria-controls="jerome" class="collapsed">Jérôme Vigoureux</a>
-                                                </h5>
-                                            </div>
-                                            <div id="jerome" class="collapse" role="tabpanel" aria-labelledby="jerome" aria-expanded="false">
-                                                <div class="card-block">
-                                                    <p>Jérôme, un gars avec un coeur gros comme ça ! Merci mon gros pour tout ce que t'as pu faire pour moi.</p>
+                                        <div class="jumbotron bg-warning">
+                                            <div class="media">
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Jérôme</h4>
+                                                    ...
                                                 </div>
+                                                <a class="media-right media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/jerome_lucie.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                </a>
                                             </div>
                                         </div>
-
-                                        <!-- Josselin -->
-                                        <div class="card">
-                                            <div class="card-header" role="tab" id="headingT">
-                                                <h5 class="mb-0 text-xs-center">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#joss" aria-expanded="false" aria-controls="joss" class="collapsed">Josselin Caron</a>
-                                                </h5>
-                                            </div>
-                                            <div id="joss" class="collapse" role="tabpanel" aria-labelledby="joss" aria-expanded="false">
-                                                <div class="card-block">
-                                                    <p>Un de mes futur témoin. Ce mec dans sa tête c'est franchement bagdad, rien qu'à le regarder, on sait exactement que ce gars passe son temps à faire des conneries. C'est mon piou piou et je l'adore :P</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- Nicolas Clabau -->
-                                        <div class="card">
-                                            <div class="card-header" role="tab" id="headingT">
-                                                <h5 class="mb-0 text-xs-center">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#nico" aria-expanded="false" aria-controls="nico" class="collapsed">Nicolas Clabau</a>
-                                                </h5>
-                                            </div>
-                                            <div id="nico" class="collapse" role="tabpanel" aria-labelledby="nico" aria-expanded="false">
-                                                <div class="card-block">
-                                                    <p>Mon deuxième témoin. Pour faire cours, il est de la même trempe que Josselin soit un barjot. Si j'aurais une prison à mon domicile, je l'enfermerai... et encore même enfermé il serait capable de faire le con !!</p>
+                                        <!-- Nicolas -->                                        
+                                        <div class="jumbotron bg-inverse">
+                                            <div class="media text-white">
+                                                <a class="media-left media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/nico_axel.jpg" alt="Generic placeholder image" width="64px" height="64px">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Nicolas</h4>
+                                                    ...
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            <div class="tab-pane" id="3wa" role="tabpanel">
-                                <!-- Section 3wa -->
+                            </div> <!-- Fin section amis -->
+                            <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+                            <div class="tab-pane" id="troisWa" role="tabpanel">
+                                <!-- Section 3WA -->
                                 <div class="row">
-                                    <!-- Logo de la 3WA -->                                   
-                                    <div class="col-xs-4 offset-xs-4 pt-2">
-                                        <img src="assets/images/thanks/amis.png" alt="Logo amis" class="imgModal mb-3">
-                                    </div>
-                                </div>
-                                <div class="row">                                    
                                     <div class="col-xs-12">
-                                        <!-- 3wa -->
-                                        <div class="card">
-                                            <div class="card-header" role="tab" id="headingT">
-                                                <h5 class="mb-0 text-xs-center">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#troisWa" aria-expanded="false" aria-controls="troisWa" class="collapsed">La 3W Académy</a>
-                                                </h5>
-                                            </div>
-                                            <div id="troisWa" class="collapse" role="tabpanel" aria-labelledby="troisWa" aria-expanded="false">
-                                                <div class="card-block">
-                                                    <p>Fabuleux centre de formation sur les langages informatique. Je la recommande chaleureusement.</p>
+                                        <!-- La 3WA -->
+                                        <div class="jumbotron bg-inverse mt-2">
+                                            <div class="media text-white">
+                                                <a class="media-left media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/3wa.png" alt="Generic placeholder image" width="64px" height="64px">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">La 3WA</h4>
+                                                    ...
                                                 </div>
+                                            </div>
+                                        </div>                                            
+                                        <!-- Mathieu -->
+                                        <div class="jumbotron bg-warning">
+                                            <div class="media">
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Mathieu Coingt</h4>
+                                                    ...
+                                                </div>
+                                                <a class="media-right media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/mathieu.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                </a>
                                             </div>
                                         </div>
-
-                                        <!-- Mathieu Coingt -->
-                                        <div class="card">
-                                            <div class="card-header" role="tab" id="headingT">
-                                                <h5 class="mb-0 text-xs-center">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#mathieu" aria-expanded="false" aria-controls="mathieu" class="collapsed">Mathieu Coingt</a>
-                                                </h5>
-                                            </div>
-                                            <div id="mathieu" class="collapse" role="tabpanel" aria-labelledby="mathieu" aria-expanded="false">
-                                                <div class="card-block">
-                                                    <p>Formateur dans l'intégration à la 3WA. Débutant en tant que formateur, il a géré comme un chef. Humainement parlant il est génial et je le remercie pour son enseignement !</p>
+                                        <!-- Julien -->                                        
+                                        <div class="jumbotron bg-inverse">
+                                            <div class="media text-white">
+                                                <a class="media-left media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/julien.jpg" alt="Generic placeholder image" width="64px" height="64px">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Julien Boyer</h4>
+                                                    ...
                                                 </div>
                                             </div>
-                                        </div>
-
-                                        <!-- Julien Boyer -->
-                                        <div class="card">
-                                            <div class="card-header" role="tab" id="headingT">
-                                                <h5 class="mb-0 text-xs-center">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#julien" aria-expanded="false" aria-controls="julien" class="collapsed">Julien Boyer</a>
-                                                </h5>
-                                            </div>
-                                            <div id="julien" class="collapse" role="tabpanel" aria-labelledby="julien" aria-expanded="false">
-                                                <div class="card-block">
-                                                    <p>Formateur et diplômé sur synfony, il nous a enseigné la partie sur le développement à la 3WA. C'est une perle qui fait en sorte de nous faire découvrir un maximum de chose. A savoir aussi qu'il m'a transmit l'amour du code. Merci Julien !</p>
+                                        </div>  
+                                        <!-- Les élèves de la promotion L9 -->
+                                        <div class="jumbotron bg-warning">
+                                            <div class="media">
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">La promotion L9</h4>
+                                                    ...
                                                 </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- La promotion l9 -->
-                                        <div class="card">
-                                            <div class="card-header" role="tab" id="headingT">
-                                                <h5 class="mb-0 text-xs-center">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#l9" aria-expanded="false" aria-controls="l9" class="collapsed">Promotion L9</a>
-                                                </h5>
-                                            </div>
-                                            <div id="l9" class="collapse" role="tabpanel" aria-labelledby="l9" aria-expanded="false">
-                                                <div class="card-block">
-                                                    <p>Ils m'ont soutenu malgré mes problèmes avec ma fille, ils m'aident encore aujourd'hui ! Merci à eux</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- Clarisse Halimari -->
-                                        <div class="card">
-                                            <div class="card-header" role="tab" id="headingT">
-                                                <h5 class="mb-0 text-xs-center">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#clarisse" aria-expanded="false" aria-controls="clarisse" class="collapsed">Clarisse Halimari</a>
-                                                </h5>
-                                            </div>
-                                            <div id="clarisse" class="collapse" role="tabpanel" aria-labelledby="clarisse" aria-expanded="false">
-                                                <div class="card-block">
-                                                    <p>Ancienne élève de la promotion L9 à la 3WA. Je la remercie de prendre de son temps pour corriger mes nombreuses fautes d'orthographe. Merci ma belle.</p>
-                                                </div>
+                                                <a class="media-right media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/anciens_eleves.png" alt="Generic placeholder image" width="64px" height="">
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                            </div> <!-- Fin section 3WA -->
+                            <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+                            <!-- Section Mooc -->
                             <div class="tab-pane" id="mooc" role="tabpanel">
-                                <!-- Section mooc -->
+                                <!-- Section udemy -->
                                 <div class="row">
-                                    <!-- Logo mooc -->
-                                    <div class="col-xs-8 offset-xs-2 pt-2">
-                                        <img src="assets/images/thanks/fastt.png" alt="Logo du fastt" class="imgModal mb-3" data-toggle="collapse" data-parent="#fastt" href="#fastt" aria-expanded="false" aria-controls="fastt" class="collapsed">
+                                    <div class="col-xs-12">
+                                        <div class="row">
+                                            <div class="col-xs-3 mt-3 mb-2">
+                                                <img src="assets/images/portraits/john_codeur.jpg" alt="" width="100%">
+                                            </div>
+                                            <div class="col-xs-9 mt-3 mb-2">
+                                                <!-- John Codeur -->
+                                                <div class="jumbotron bg-warning">
+                                                    <div class="media">
+                                                        <div class="media-body">
+                                                            <h4 class="media-heading">John Codeur</h4>
+                                                            Je tiens réellement à remercier John codeur pour ces nombreuses formations sur plusieurs langages. Pour ma part, il s'agit surtout d'un rafraîchissement sur quelques langages. Mais aussi prenons le cas de jQuery, à la 3WA, j'avais pas mal de lacune sur ce langage. Aujourd'hui grâce à John, ce n'est plus le cas.  
+                                                        </div>
+                                                        <a class="media-right media-middle" href="#">
+                                                            <img class="media-object img-thumbnail" src="assets/images/logo/mooc/udemy.svg" alt="Generic placeholder image" width="64px" height="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-3">
+                                                <img src="assets/images/portraits/sandy_ludosky.jpg" alt="" width="100%">
+                                            </div>
+                                            <div class="col-xs-9">
+                                                <!-- Sandy Ludosky -->
+                                                <div class="jumbotron bg-warning">
+                                                    <div class="media">
+                                                        <div class="media-body">
+                                                            <h4 class="media-heading">Sandy Ludosky</h4>
+                                                            Sandy, j'ai découvert cette fabuleuse formatrice il y a maintenant un bon petit moment sur video2brain lorsqu'elle avait publié une formation sur bootstrap 3. J'ai longuement hésité entre ces formations et celles de Julien Moulin. J'ai via mon abonnement deluxe sur video2brain, pu voir ces formations. Franchement ça vaut le coup. Peut être que pour bootstrap 3 il faudrait plutôt patienter pour une formation sur bootstrap 4 mais bon au jour d'aujourd'hui sur Udemy, Sandy me forme quand j'ai un peu de temps libre sur ANGULAR 2. Merci Sandy pour tes cours.
+                                                        </div>
+                                                        <a class="media-right media-middle" href="#">
+                                                            <img class="media-object img-thumbnail" src="assets/images/logo/mooc/udemy.svg" alt="Generic placeholder image" width="64px" height="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-3">
+                                                <img src="assets/images/portraits/steven_sil.jpg" alt="" width="100%">
+                                            </div>
+                                            <div class="col-xs-9">
+                                                <!-- Steven Sil -->
+                                                <div class="jumbotron bg-warning">
+                                                    <div class="media">
+                                                        <div class="media-body">
+                                                            <h4 class="media-heading">Steven Sil</h4>
+                                                            Steven Sil, quel formateur !! Très jeune mais avec une façon d'expliqué qui te prends aux trips. Etant amoureux du code avec Steven, j'ai découvert bootstrap 4, ( Aujourd'hui, l'installation est bien plus aisé ). J'ai appris la base de Emmet. ( Je remercie aussi Mr Birnou Sébarte sur vidéo2brain pour cette même formation. ). Mais également, j'apprends avec Steven, JAVASCRIPT / PHP / GIT / LARAVEL / COMPOSER et bien d'autres choses... Merci aussi Steven pour ton aimabilité sur facebook. J'apprécie grandement d'évoluer positivement auprès de toi.
+                                                        </div>
+                                                        <a class="media-right media-middle" href="#">
+                                                            <img class="media-object img-thumbnail" src="assets/images/logo/mooc/tuto_com.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Adrien Gazaix -->
+                                            <div class="col-xs-3">
+                                                <img src="assets/images/portraits/adrien_gazaix.jpg" alt="" width="100%">
+                                            </div>
+                                            <div class="col-xs-9">
+                                                <div class="jumbotron bg-warning">
+                                                    <div class="media">
+                                                        <div class="media-body">
+                                                            <h4 class="media-heading">Adrien Gazaix</h4>
+                                                            ...
+                                                        </div>
+                                                        <a class="media-right media-middle" href="#">
+                                                            <img class="media-object img-thumbnail" src="assets/images/logo/mooc/tuto_com.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Fabien Le corre -->
+                                            <div class="col-xs-3">
+                                                <img src="assets/images/portraits/fabien_le_corre.jpg" alt="" width="100%">
+                                            </div>
+                                            <div class="col-xs-9">
+                                                <div class="jumbotron bg-warning">
+                                                    <div class="media">
+                                                        <div class="media-body">
+                                                            <h4 class="media-heading">Fabien Le corre</h4>
+                                                            ...
+                                                        </div>
+                                                        <a class="media-right media-middle" href="#">
+                                                            <img class="media-object img-thumbnail" src="assets/images/logo/mooc/tuto_com.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Sébatien Imbert -->
+                                            <div class="col-xs-3">
+                                                <img src="assets/images/portraits/sebastien_imbert.jpg" alt="" width="100%">
+                                            </div>
+                                            <div class="col-xs-9">
+                                                <div class="jumbotron bg-warning">
+                                                    <div class="media">
+                                                        <div class="media-body">
+                                                            <h4 class="media-heading">Sébastien Imbert</h4>
+                                                            ...
+                                                        </div>
+                                                        <a class="media-right media-middle" href="#">
+                                                            <img class="media-object img-thumbnail" src="assets/images/logo/mooc/tuto_com.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Graphoeil -->
+                                            <div class="col-xs-3">
+                                                <img src="assets/images/portraits/graphoeil.jpg" alt="" width="100%">
+                                            </div>
+                                            <div class="col-xs-9">
+                                                <div class="jumbotron bg-warning">
+                                                    <div class="media">
+                                                        <div class="media-body">
+                                                            <h4 class="media-heading">Graphoeil</h4>
+                                                            ...
+                                                        </div>
+                                                        <a class="media-right media-middle" href="#">
+                                                            <img class="media-object img-thumbnail" src="assets/images/logo/mooc/tuto_com.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Benoit Asselin -->
+                                            <div class="col-xs-3">
+                                                <img src="assets/images/portraits/benoit_asselin.jpg" alt="" width="100%">
+                                            </div>
+                                            <div class="col-xs-9">
+                                                <div class="jumbotron bg-warning">
+                                                    <div class="media">
+                                                        <div class="media-body">
+                                                            <h4 class="media-heading">Benoit Asselin</h4>
+                                                            Benoît, tu m'as permis de découvrir mootools via un petit projet et j'ai vraiment adoré Merci. De plus, avec toi j'ai pu réviser les REGEX !! Egalement, j'ai la possibilité de créer une timeline en jQuery tout comme la possibilitée d'animer un spinner en jQuery. Merci vraiment pour tout benôit. 
+                                                        </div>
+                                                        <a class="media-right media-middle" href="#">
+                                                            <img class="media-object img-thumbnail" src="assets/images/logo/mooc/tuto_com.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Rudy Evrard -->
+                                            <div class="col-xs-3">
+                                                <img src="assets/images/portraits/rudy_evrard.jpg" alt="" width="100%">
+                                            </div>
+                                            <div class="col-xs-9">
+                                                <div class="jumbotron bg-warning">
+                                                    <div class="media">
+                                                        <div class="media-body">
+                                                            <h4 class="media-heading">Rudy Evrard</h4>
+                                                            Merci rudy pour ta formation sur la compréhension des IIFE et du mode strict en JavaScript. Merci à toi !
+                                                        </div>
+                                                        <a class="media-right media-middle" href="#">
+                                                            <img class="media-object img-thumbnail" src="assets/images/logo/mooc/tuto_com.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Mathieu Nebra -->
+                                            <div class="col-xs-3">
+                                                <img src="assets/images/portraits/mathieu_nebra.jpg" alt="" width="100%">
+                                            </div>
+                                            <div class="col-xs-9">
+                                                <div class="jumbotron bg-warning">
+                                                    <div class="media">
+                                                        <div class="media-body">
+                                                            <h4 class="media-heading">Mathieu Nebra</h4>
+                                                            Mathieu, merci pour le site du zéro que tu avais créé. Merci d'avoir fait openClassRooms. J'ai appris de bien belle chose sur la plateforme d'OpenClassRooms mais l'augmentation du prix pour suivre tel ou tel parcours... ne m'encourageait pas à poursuivre là bas. Sa n'empêche en rien que j'ai un profond respect pour ce que j'ai pu apprendre. Merci à vous tous. (Je reviendrais certainement le jour ou j'aurais un emploi).
+                                                        </div>
+                                                        <a class="media-right media-middle" href="#">
+                                                            <img class="media-object img-thumbnail" src="assets/images/logo/mooc/openClassrooms.png" alt="Generic placeholder image" width="64px" height="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- Grafikart -->
+                                            <div class="col-xs-3">
+                                                <img src="assets/images/portraits/grafikart_auteur.jpg" alt="" width="100%">
+                                            </div>
+                                            <div class="col-xs-9">
+                                                <div class="jumbotron bg-warning">
+                                                    <div class="media">
+                                                        <div class="media-body">
+                                                            <h4 class="media-heading">Grafikart</h4>
+                                                            Merci pour ces nombreux cours que vous proposez. J'ai été à une époque abonné et je peux vous assurer que ça vaut le coup. Je ne suis plus abo pour le moment mais lorsque j'aurais un emploi dans ce domaine, je me réabonnerai immédiatement. J'ai tellement la soif d'apprendre que je ne peux pas passé à côté de ce que vous poposez. Merci encore.
+                                                        </div>
+                                                        <a class="media-right media-middle" href="#">
+                                                            <img class="media-object img-thumbnail" src="assets/images/logo/mooc/grafikart_logo.jpg" alt="Generic placeholder image" width="64px" height="">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                    <div class="row">
-                                        
-                                        <div class="col-xs-6">
-                                            <!-- John Codeur -->
-                                            <div class="card">
-                                                <div class="card-header" role="tab" id="headingT">
-                                                    <h5 class="mb-0 text-xs-center">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#john" aria-expanded="false" aria-controls="john" class="collapsed">John Codeur</a>
-                                                    </h5>
-                                                </div>
-                                                <div id="john" class="collapse" role="tabpanel" aria-labelledby="john" aria-expanded="false">
-                                                    <div class="card-block">
-                                                        <p>Formateur sur Udemy.com. Avec John, je peux prendre plus le temps pour assimiler des fondamentaux qui n'était pas totalement compris à la 3WA. Je peux ainsi en apprendre plus en pratiquant à mon rythme via ces vidéos. Il va à l'essentiel et très franchement c'est que du bonheur.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Sandy Ludosky -->
-                                            <div class="card">
-                                                <div class="card-header" role="tab" id="headingT">
-                                                    <h5 class="mb-0 text-xs-center">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#sandy" aria-expanded="false" aria-controls="sandy" class="collapsed">Sandy Ludosky</a>
-                                                    </h5>
-                                                </div>
-                                                <div id="sandy" class="collapse" role="tabpanel" aria-labelledby="sandy" aria-expanded="false">
-                                                    <div class="card-block">
-                                                        <p>Formatrice sur Udemy.com. Avec Sandy, je découvre Angular2. (Tout comme Julien Moulin aussi sur Vidéo2Brain). J'apprends réellement beaucoup à ces côtés. Merci Sandy</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Steven Sil -->
-                                            <div class="card">
-                                                <div class="card-header" role="tab" id="headingT">
-                                                    <h5 class="mb-0 text-xs-center">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#steven" aria-expanded="false" aria-controls="steven" class="collapsed">Steven Sil</a>
-                                                    </h5>
-                                                </div>
-                                                <div id="steven" class="collapse" role="tabpanel" aria-labelledby="steven" aria-expanded="false">
-                                                    <div class="card-block">
-                                                        <p>Formateur sur tuto.com. Également auprès de lui j'en apprends énormément. Si je peux me permettre, je vous recommande très franchement ces cours. &Ccedil;a vaut vachement le détour.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Vidéo2Brain -->
-                                            <div class="card">
-                                                <div class="card-header" role="tab" id="headingT">
-                                                    <h5 class="mb-0 text-xs-center">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#v2b" aria-expanded="false" aria-controls="v2b" class="collapsed">Vidéo2Brain</a>
-                                                    </h5>
-                                                </div>
-                                                <div id="v2b" class="collapse" role="tabpanel" aria-labelledby="v2b" aria-expanded="false">
-                                                    <div class="card-block">
-                                                        <p>Étant membre deluxe, je ne peux citer chaque formateur. C'est pourquoi je tiens à remerciers les nombreux formateurs qui confectionne des formations de qualité. Auprès d'eux, j'en apprends également beaucoup.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- OpenClassRooms -->
-                                            <div class="card">
-                                                <div class="card-header" role="tab" id="headingT">
-                                                    <h5 class="mb-0 text-xs-center">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#openClassRooms" aria-expanded="false" aria-controls="openClassRooms" class="collapsed">OpenClassRooms</a>
-                                                    </h5>
-                                                </div>
-                                                <div id="openClassRooms" class="collapse" role="tabpanel" aria-labelledby="openClassRooms" aria-expanded="false">
-                                                    <div class="card-block">
-                                                        <p>Je remercie les nombreux formateurs de cette plateforme. Un seule bémole tout de même. l'augmentation fulgurante du prix pour suivre un parcours spécifique.</p>
-                                                    </div>
-                                                </div>
-                                            </div>                                                          
-                                        </div>
-
-                                        <div class="col-xs-6">
-                                            <!-- John Codeur -->
-                                            <div class="card">
-                                                <div class="card-header" role="tab" id="headingT">
-                                                    <h5 class="mb-0 text-xs-center">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#john" aria-expanded="false" aria-controls="john" class="collapsed">John Codeur</a>
-                                                    </h5>
-                                                </div>
-                                                <div id="john" class="collapse" role="tabpanel" aria-labelledby="john" aria-expanded="false">
-                                                    <div class="card-block">
-                                                        <p>Formateur sur Udemy.com. Avec John, je peux prendre plus le temps pour assimiler des fondamentaux qui n'était pas totalement compris à la 3WA. Je peux ainsi en apprendre plus en pratiquant à mon rythme via ces vidéos. Il va à l'essentiel et très franchement c'est que du bonheur.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Sandy Ludosky -->
-                                            <div class="card">
-                                                <div class="card-header" role="tab" id="headingT">
-                                                    <h5 class="mb-0 text-xs-center">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#sandy" aria-expanded="false" aria-controls="sandy" class="collapsed">Sandy Ludosky</a>
-                                                    </h5>
-                                                </div>
-                                                <div id="sandy" class="collapse" role="tabpanel" aria-labelledby="sandy" aria-expanded="false">
-                                                    <div class="card-block">
-                                                        <p>Formatrice sur Udemy.com. Avec Sandy, je découvre Angular2. (Tout comme Julien Moulin aussi sur Vidéo2Brain). J'apprends réellement beaucoup à ces côtés. Merci Sandy</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Steven Sil -->
-                                            <div class="card">
-                                                <div class="card-header" role="tab" id="headingT">
-                                                    <h5 class="mb-0 text-xs-center">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#steven" aria-expanded="false" aria-controls="steven" class="collapsed">Steven Sil</a>
-                                                    </h5>
-                                                </div>
-                                                <div id="steven" class="collapse" role="tabpanel" aria-labelledby="steven" aria-expanded="false">
-                                                    <div class="card-block">
-                                                        <p>Formateur sur tuto.com. Également auprès de lui j'en apprends énormément. Si je peux me permettre, je vous recommande très franchement ces cours. &Ccedil;a vaut vachement le détour.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- Vidéo2Brain -->
-                                            <div class="card">
-                                                <div class="card-header" role="tab" id="headingT">
-                                                    <h5 class="mb-0 text-xs-center">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#v2b" aria-expanded="false" aria-controls="v2b" class="collapsed">Vidéo2Brain</a>
-                                                    </h5>
-                                                </div>
-                                                <div id="v2b" class="collapse" role="tabpanel" aria-labelledby="v2b" aria-expanded="false">
-                                                    <div class="card-block">
-                                                        <p>Étant membre deluxe, je ne peux citer chaque formateur. C'est pourquoi je tiens à remerciers les nombreux formateurs qui confectionne des formations de qualité. Auprès d'eux, j'en apprends également beaucoup.</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <!-- OpenClassRooms -->
-                                            <div class="card">
-                                                <div class="card-header" role="tab" id="headingT">
-                                                    <h5 class="mb-0 text-xs-center">
-                                                        <a data-toggle="collapse" data-parent="#accordion" href="#openClassRooms" aria-expanded="false" aria-controls="openClassRooms" class="collapsed">OpenClassRooms</a>
-                                                    </h5>
-                                                </div>
-                                                <div id="openClassRooms" class="collapse" role="tabpanel" aria-labelledby="openClassRooms" aria-expanded="false">
-                                                    <div class="card-block">
-                                                        <p>Je remercie les nombreux formateurs de cette plateforme. Un seule bémole tout de même. l'augmentation fulgurante du prix pour suivre un parcours spécifique.</p>
-                                                    </div>
-                                                </div>
-                                            </div>                                                          
-                                        </div>
-                                    </div>
-                            <div class="tab-pane" id="autres" role="tabpanel">
+                            </div> <!-- Fin section mooc -->
+                            <!-- -------------------------------------------------------------------------------------------------------------------------------- -->
+                            <!-- Section autres -->
+                            <div class="tab-pane active" id="autres" role="tabpanel">
                                 <!-- Section autres -->
                                 <div class="row">
-                                    <div class="col-xs-8 offset-xs-2 pt-2">
-                                        <img src="assets/images/thanks/autres.png" alt="Logo autres" class="imgModal mb-3">
-                                    </div>
-                                </div>
-                                
-                            </div>
-                            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                            <div class="tab-pane" id="autres" role="tabpanel">
-                                <!-- Section mooc -->
-                                <div class="row">
-                                    <!-- Logo mooc -->
-                                    <div class="col-xs-8 offset-xs-2 pt-2">
-                                        <img src="assets/images/thanks/fastt.png" alt="Logo du fastt" class="imgModal mb-3" data-toggle="collapse" data-parent="#fastt" href="#fastt" aria-expanded="false" aria-controls="fastt" class="collapsed">
-                                    </div>
-                                </div>
-                                <div class="row">
                                     <div class="col-xs-12">
-                                        <!-- Seniors féminine 2 -->
-                                        <div class="card">
-                                            <div class="card-header" role="tab" id="headingT">
-                                                <h5 class="mb-0 text-xs-center">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#sgf2" aria-expanded="false" aria-controls="sgf2" class="collapsed">Seniors Féminine 2</a>
-                                                </h5>
-                                            </div>
-                                            <div id="sgf2" class="collapse" role="tabpanel" aria-labelledby="sgf2" aria-expanded="false">
-                                                <div class="card-block">
-                                                    <p>Je tiens très franchement à remercier les seniors féminine 2 du club de handball de Meyzieu. En effet lors de la saison 2015-2016, j'étais leur entraîneur adjoint. Suite aux soucis de ma fille j'ai du les abandonners pour être après de la petite. Merci les filles d'avoir été si gentille avec moi.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- Oubli -->
-                                        <div class="card">
-                                            <div class="card-header" role="tab" id="headingT">
-                                                <h5 class="mb-0 text-xs-center">
-                                                    <a data-toggle="collapse" data-parent="#accordion" href="#oubli" aria-expanded="false" aria-controls="oubli" class="collapsed">J'en oublie...</a>
-                                                </h5>
-                                            </div>
-                                            <div id="oubli" class="collapse" role="tabpanel" aria-labelledby="oubli" aria-expanded="false">
-                                                <div class="card-block">
-                                                    <p>Il est tout a fait probable que j'ai oublié de citer quelques personnes. Si c'est le cas, je suis désolé. Dans tous les cas sachez que je tiens tout de même à vous remercier.</p>
+                                        <!-- Seniors Féminine 2 -->                                        
+                                        <div class="jumbotron bg-inverse mt-2">
+                                            <div class="media text-white">
+                                                <a class="media-left media-middle" href="#">
+                                                    <img class="media-object img-thumbnail" src="assets/images/portraits/logo_usmhb.png" alt="Generic placeholder image" width="64px" height="64px">
+                                                </a>
+                                                <div class="media-body">
+                                                    <h4 class="media-heading">Seniors Féminine 2</h4>
+                                                    Je suis heureux d'avoir pour la saison 2015-2016 pu être le coach adjoint de l'équipe des Seniors Féminine 2 du club de l'US Meyzieu Handball. Auprès d'elles, j'ai appris énormément. Elles ont été toutes respectueuses auprès de moi sachant que c'était ma toute première expérience en tant qu'entraîneur. Je remercie Jérémie Légué qui m'en a appris également beaucoup. J'ai du les abandonner en fin d'année 2016 suite au soucis de santé de ma dernière. Elles l'ont très bien prit et je les en remercieraient jamais assez. Je les embrassent toutes sans distinction. Merci les filles. Gros bisous !
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-
-
                                 </div>
-                                <div class="tab-pane" id="autres" role="tabpanel">
-                                    <!-- Section autres -->
-                                    <div class="row">
-                                        <div class="col-xs-8 offset-xs-2 pt-2">
-                                            <img src="assets/images/thanks/autres.png" alt="Logo autres" class="imgModal mb-3">
-                                        </div>
-                                    </div>
+                            </div> <!-- Fin section autres -->
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                                </div>
-                            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-
-                        </div> <!-- Fin div#accordion -->
-                    </div> <!-- div class="col-xs-12 mt-1" -->
-                </div> <!-- div class="row" -->
-            </div> <!-- div class="modal-body modalContent" -->
             <!-- Modal footer -->
             <div class="modal-footer bg-info">
                 <div class="col-xs-12">

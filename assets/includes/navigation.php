@@ -1,7 +1,6 @@
-        <div class="collapse navbar-toggleable-sm text-xs-center" id="myNav">
-            <span class="clearfix hidden-md-up"><br /><br /></span>
+        <div class="collapse text-xs-center" id="myNavOne">
             <div class="row">
-                <div class="col-xs-8 wow slideInDown">
+                <div class="col-xs-8 wow slideInDown pt-1">
                     <h4 class="text-xs-center text-white bg-info p-1"><i class="fa fa-info" aria-hidden="true"></i> - Information -</h4>
                     <ul class="nav navbar-nav navLeft">
                         <li class="nav-item">
@@ -44,7 +43,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-xs-4 wow slideInDown">
+                <div class="col-xs-4 wow slideInDown pt-1">
                     <h4 class="text-xs-center text-white bg-warning p-1 mb-3"><i class="fa fa-code-fork" aria-hidden="true"></i> Révision</h4>
                     <ul class="nav navbar-nav">
                         <div class="col-xs-6">
@@ -81,7 +80,7 @@
                     <p class="text-danger text-xs-center">Aucun lien disponible actuellement.<br />
                     <span class="text-info">(jQuery pratiquement fini)</span></p>
                     <hr>
-                    <p class="text-warning text-xs-center"><small>Je vous souhaite une très bonne année 2017.</small></p>
+                    <p class="text-warning text-xs-center">Je vous souhaite une très bonne année 2017.</p>
                 </div>
             </div>
         </div>

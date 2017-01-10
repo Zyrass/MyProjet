@@ -29,12 +29,27 @@
         <!-- ============================================================================================= -->
         <!-- ============ Barre de navigation -->
         <!-- ============================================================================================= -->
-        <nav class="navbar navbar-dark navbar-fixed-top bg-inverse">
+        <nav class="navbar navbar-dark navbar-fixed-top">
             <a href="index.php" class="navbar-brand">Alain <span class="text-uppercase text-warning ">guillon</span> - <i class="fa fa-mobile" aria-hidden="true"></i> <small class="text-info">+33 6.83.13.88.45</small></a>
-            <button type="button" class="navbar-toggler clearfix hidden-md-up float-xs-right" data-toggle="collapse" data-target="#myNav"></button>
+            <button type="button" class="navbar-toggler hidden-md-up float-xs-right mr-1" data-toggle="collapse" data-target="#myNavOne"></button>
             <?php include("assets/includes/navigation.php"); ?>
+            <div class="collapse navbar-collapse" id="myNavOne">
+                <ul>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-        
         <div class="container-fluid">
             <!-- ============================================================================================= -->
             <!-- ============ Header -->
@@ -769,13 +784,7 @@
             <!-- ============================================================================================= -->
             <!-- ============ Footer -->
             <!-- ============================================================================================= -->
-            <div class="row">
-                <div class="col-xs-12 " id="copyright" >
-                    <footer class="p-1"> 
-                        <p class="text-white text-xs-center">Copyright &copy; 2017-2018 | <span class="text-info">+33 6.83.13.88.45</span> | Alain <span class="text-uppercase text-warning">guillon</span></p>
-                    </footer>
-                </div>
-            </div>
+            <?php include("assets/includes/footer.php"); ?>
         </div><!-- Fin container -->
         <!-- JQuery -->
             <script type="text/javascript" src="vendor/jquery/jquery-3.1.1.min.js"></script>
